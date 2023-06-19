@@ -1,0 +1,55 @@
+# Define a class called CarModel
+class CarModel:
+    # Initialize the attributes of a car model instance
+    def __init__(self, model_id, display_name, accept_orders, engine_id, engine_make_date, engine_fuel_type, price):
+        # Store the model ID and display name
+        self.model = {
+            "id": model_id,
+            "displayName": display_name
+        }
+        # Store whether the car model accepts orders
+        self.acceptOrders = accept_orders
+        # Store the engine ID, make date, and fuel type
+        self.engine = {
+            "id": engine_id,
+            "dateOfMake": engine_make_date,
+            "fuelType": engine_fuel_type
+        }
+        # Store the price of the car model
+        self.price = price
+
+
+# Create instances of CarModel for each car model
+ga_model = CarModel("GA01", "General Availability (GA)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "5")
+spx_model = CarModel("SPX01", "Special Edition (SPX)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "10")
+le_model = CarModel("LE01", "Limited Edition (LE)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "30")
+
+# Print the car model attributes for GA model
+print("General Availability (GA) Model:")
+print("Model ID:", ga_model.model["id"])  # Access and print the model ID
+print("Display Name:", ga_model.model["displayName"])  # Access and print the display name
+print("Accept Orders:", ga_model.acceptOrders)  # Print whether the model accepts orders
+print("Engine ID:", ga_model.engine["id"])  # Access and print the engine ID
+print("Engine Make Date:", ga_model.engine["dateOfMake"])  # Access and print the engine make date
+print("Engine Fuel Type:", ga_model.engine["fuelType"])  # Access and print the engine fuel type
+print("Price:", ga_model.price, "Lakhs")  # Print the price with "Lakhs" appended
+
+# Print the car model attributes for SPX model
+print("\nSpecial Edition (SPX) Model:")
+print("Model ID:", spx_model.model["id"])
+print("Display Name:", spx_model.model["displayName"])
+print("Accept Orders:", spx_model.acceptOrders)
+print("Engine ID:", spx_model.engine["id"])
+print("Engine Make Date:", spx_model.engine["dateOfMake"])
+print("Engine Fuel Type:", spx_model.engine["fuelType"])
+print("Price:", spx_model.price, "Lakhs")
+
+# Print the car model attributes for LE model
+print("\nLimited Edition (LE) Model:")
+print("Model ID:", le_model.model["id"])
+print("Display Name:", le_model.model["displayName"])
+print("Accept Orders:", le_model.acceptOrders)
+print("Engine ID:", le_model.engine["id"])
+print("Engine Make Date:", le_model.engine["dateOfMake"])
+print("Engine Fuel Type:", le_model.engine["fuelType"])
+print("Price:", le_model.price, "Lakhs")

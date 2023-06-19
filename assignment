@@ -18,11 +18,10 @@ class CarModel:
         # Store the price of the car model
         self.price = price
 
-
 # Create instances of CarModel for each car model
-ga_model = CarModel("GA01", "General Availability (GA)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "5")
-spx_model = CarModel("SPX01", "Special Edition (SPX)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "10")
-le_model = CarModel("LE01", "Limited Edition (LE)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "30")
+ga_model = CarModel("GA01", "Tata Nano General Availability (GA)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "5")
+spx_model = CarModel("SPX01", "Tata Nano Special Edition (SPX)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "10")
+le_model = CarModel("LE01", "Tata Nano Limited Edition (LE)", True, "MTGBD37489IDUDU", "2022-03-28", "diesel", "30")
 
 # Print the car model attributes for GA model
 print("General Availability (GA) Model:")

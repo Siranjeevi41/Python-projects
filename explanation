@@ -11,12 +11,25 @@ class CarModel:
             "fuelType": engine_fuel_type
         }
         self.price = price
-This section defines the base class CarModel. It has an __init__ method (constructor) that takes in various attributes such as model_id, display_name, accept_orders, engine_id, engine_make_date, engine_fuel_type, and price.
+        
+        
+        
+the base class CarModel. It has an __init__ method (constructor) that takes in various attributes
+
+such as model_id, display_name, accept_orders, engine_id, engine_make_date, engine_fuel_type, and price.
+
 Inside the constructor, these attributes are assigned to corresponding instance variables using self.
+
 self.model is a dictionary containing the model_id and display_name.
+
 self.acceptOrders holds the boolean value accept_orders.
+
 self.engine is a dictionary containing the engine_id, engine_make_date, and engine_fuel_type.
+
 self.price stores the price of the car model.
+
+
+
 python
 Copy code
 class GA(CarModel):

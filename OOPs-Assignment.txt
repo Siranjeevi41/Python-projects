@@ -1,0 +1,30 @@
+Assignment:
+
+Case:
+Consider a factory that manufactures cars with different models:
+General Availability(GA)
+Special edition(SPX)
+Limited Edition(LE)
+
+Create a car model which is common for all the above models with below attributes & behaviours:
+{
+    "model": {
+      "id": "8787878d8d7d878d78efee", 
+      "displayName": "Tata Nano - LE"},
+    "acceptOrders": "true",
+    "engine": {
+      "id": "MTGBD37489IDUDU", 
+      "dateOfMake": "2022-03-28",
+      "fuelType": "diesel"},
+      "price": "700000"
+  }
+
+
+Default behaviour:
+Should initialize the above data for a model
+
+Specific behaviour:
+LE model should have cost 3X times than SPX model
+SPX model should have cost 2X times than GA model
+
+

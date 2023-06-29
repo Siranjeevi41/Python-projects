@@ -1,0 +1,902 @@
+village_1_data = [
+    {
+        "UUID": "797f2db2-1f7c-4cb1-8c2b-b71ff0734731",
+        "Full name": "Mrs. Nick Beier",
+        "Email": "Alta.Glover10@yahoo.com",
+        "Phone number": "1-648-795-2927",
+        "Country": "Liechtenstein"
+    },
+    {
+        "UUID": "b342eb00-6f26-4a0e-840e-6d6f2f05458c",
+        "Full name": "Ericka Brown",
+        "Email": "Alba_Kuphal60@hotmail.com",
+        "Phone number": "790.846.5765",
+        "Country": "Suriname"
+    },
+    {
+        "UUID": "ef0ee475-79b1-48b7-bdcf-0a4d4a302d63",
+        "Full name": "Tyrique Witting MD",
+        "Email": "Stefanie_Sanford26@hotmail.com",
+        "Phone number": "151-421-7388",
+        "Country": "Rwanda"
+    },
+    {
+        "UUID": "0e8db160-1d14-4d4d-9dba-f2db900f7050",
+        "Full name": "Sarina Ruecker",
+        "Email": "Mollie.Monahan@hotmail.com",
+        "Phone number": "1-639-414-5136",
+        "Country": "Namibia"
+    },
+    {
+        "UUID": "54ac6bcc-5f9b-4761-91bd-09672bf86a88",
+        "Full name": "Ms. Reinhold Watsica",
+        "Email": "Raquel_Lakin75@yahoo.com",
+        "Phone number": "(558) 678-2776",
+        "Country": "Eritrea"
+    },
+    {
+        "UUID": "9eaba564-b301-439c-8152-8582f82fc7ed",
+        "Full name": "Mohammad Lockman",
+        "Email": "Donny91@hotmail.com",
+        "Phone number": "1-893-299-8667 x338",
+        "Country": "Guinea"
+    },
+    {
+        "UUID": "356cd20c-2d2c-4835-b292-f5bb6e121172",
+        "Full name": "Ivah Jacobi",
+        "Email": "Keyshawn82@hotmail.com",
+        "Phone number": "(709) 110-6373 x643",
+        "Country": "Cyprus"
+    },
+    {
+        "UUID": "46f27ec5-121f-4291-b0f1-c0611b81e1de",
+        "Full name": "Mr. Juston Wyman",
+        "Email": "Holly_Carroll@gmail.com",
+        "Phone number": "586-143-6296 x98370",
+        "Country": "Turkey"
+    },
+    {
+        "UUID": "266f9cf7-d7c8-4301-9063-d31ecd4095e3",
+        "Full name": "Vance Gulgowski",
+        "Email": "Justine.Ullrich@hotmail.com",
+        "Phone number": "1-644-526-7884 x5341",
+        "Country": "Benin"
+    },
+    {
+        "UUID": "ec79feab-34c5-42ef-a5f4-957476484345",
+        "Full name": "Roselyn Rohan Sr.",
+        "Email": "Piper25@hotmail.com",
+        "Phone number": "(200) 596-9755",
+        "Country": "Ghana"
+    },
+    {
+        "UUID": "5be9ea37-64bc-42f6-a7ce-f5314a30b0b9",
+        "Full name": "Kadin Kuvalis",
+        "Email": "Odie_Wilderman@yahoo.com",
+        "Phone number": "(935) 000-0032 x493",
+        "Country": "Uzbekistan"
+    },
+    {
+        "UUID": "cea0165c-3bc4-4163-9bc1-3f867fbfc87e",
+        "Full name": "Euna McDermott I",
+        "Email": "Korey.Dibbert@yahoo.com",
+        "Phone number": "(956) 855-5194",
+        "Country": "Djibouti"
+    },
+    {
+        "UUID": "72ff6f44-a76c-4a48-b5c9-447b898d5e3b",
+        "Full name": "Carmel Howell IV",
+        "Email": "Lenny2@hotmail.com",
+        "Phone number": "282.322.6044 x47382",
+        "Country": "Bahamas"
+    },
+    {
+        "UUID": "a90e124f-d1b8-4ecd-8218-0384f33955cc",
+        "Full name": "Quinten Gulgowski",
+        "Email": "Rylan_Treutel@hotmail.com",
+        "Phone number": "016-768-3945 x97968",
+        "Country": "South Africa"
+    },
+    {
+        "UUID": "4283c497-1280-4502-beae-a831b7e6cb6d",
+        "Full name": "Guy Stark Jr.",
+        "Email": "Grace.Kutch@yahoo.com",
+        "Phone number": "309-309-1230",
+        "Country": "Montenegro"
+    },
+    {
+        "UUID": "614017a4-5d95-41d8-95e6-ba1da5de7683",
+        "Full name": "Magali Armstrong",
+        "Email": "Liliana75@yahoo.com",
+        "Phone number": "(191) 481-9662",
+        "Country": "American Samoa"
+    },
+    {
+        "UUID": "2c15a851-f816-4ce4-aa64-f2c3493e81d3",
+        "Full name": "Jace Homenick",
+        "Email": "Princess_Mohr19@hotmail.com",
+        "Phone number": "1-744-066-9620",
+        "Country": "Mauritania"
+    },
+    {
+        "UUID": "7634e513-9565-4cb1-8004-24bf6fe19e4b",
+        "Full name": "Wilma Reichert",
+        "Email": "Layla.Mante@yahoo.com",
+        "Phone number": "241.432.8049 x4835",
+        "Country": "Guatemala"
+    },
+    {
+        "UUID": "6b2f343d-9af6-4475-a7ac-bb73e6622769",
+        "Full name": "Raul Conn",
+        "Email": "Jay78@hotmail.com",
+        "Phone number": "1-964-906-5040 x553",
+        "Country": "Lesotho"
+    },
+    {
+        "UUID": "c9d4a24f-ace5-4d87-8d47-fb0680053ba5",
+        "Full name": "Alysson Kutch",
+        "Email": "Ora_Kutch81@gmail.com",
+        "Phone number": "991.121.4253 x43526",
+        "Country": "Bosnia and Herzegovina"
+    },
+    {
+        "UUID": "ab875741-11d9-4229-9e6e-97d9ae3c3eca",
+        "Full name": "Ms. Jammie Grant",
+        "Email": "Malinda12@yahoo.com",
+        "Phone number": "345-408-9154 x6142",
+        "Country": "Iraq"
+    },
+    {
+        "UUID": "4118d74f-f1ca-407f-a4ca-826bdd0df592",
+        "Full name": "Justen Harber",
+        "Email": "Hilda82@hotmail.com",
+        "Phone number": "290-901-9186",
+        "Country": "Lesotho"
+    },
+    {
+        "UUID": "61e4bfcf-b586-4d0f-b102-e7e10896a8b8",
+        "Full name": "Forrest Gaylord",
+        "Email": "Dangelo.Gerhold@yahoo.com",
+        "Phone number": "642-197-1278 x327",
+        "Country": "Dominican Republic"
+    },
+    {
+        "UUID": "cd010de3-6a2d-4a0d-921b-1c825ab41362",
+        "Full name": "Daren Hane",
+        "Email": "Osvaldo10@gmail.com",
+        "Phone number": "(929) 480-3041",
+        "Country": "Sweden"
+    },
+    {
+        "UUID": "11473569-7dee-4dbb-8f8d-2ba16b2175d4",
+        "Full name": "Michel Reichert",
+        "Email": "Grover_Conn@gmail.com",
+        "Phone number": "734.421.4569",
+        "Country": "Christmas Island"
+    },
+    {
+        "UUID": "0ff7eaa8-5e73-4ad9-a5c5-17128bbada6d",
+        "Full name": "Gerard Oberbrunner",
+        "Email": "Darius.Hegmann89@hotmail.com",
+        "Phone number": "1-341-235-4926 x49621",
+        "Country": "Bouvet Island (Bouvetoya)"
+    },
+    {
+        "UUID": "f48c30c4-d24c-4cab-bcfd-e57acc077972",
+        "Full name": "Felicity Morissette",
+        "Email": "Jacky_Kessler@yahoo.com",
+        "Phone number": "511.204.4922",
+        "Country": "Italy"
+    },
+    {
+        "UUID": "a54ae02f-ec8e-48fd-91f9-a567f9a55190",
+        "Full name": "Tre Kilback",
+        "Email": "Wilfrid_Hilpert@yahoo.com",
+        "Phone number": "(152) 742-9541 x44226",
+        "Country": "Cayman Islands"
+    },
+    {
+        "UUID": "e77cb1ac-4eb2-4ac8-adc9-70e79f0111ac",
+        "Full name": "Hettie Kutch",
+        "Email": "Amira51@hotmail.com",
+        "Phone number": "648-594-7095 x957",
+        "Country": "United Arab Emirates"
+    },
+    {
+        "UUID": "99e4dcb9-761a-4003-acfd-41c0858b2d75",
+        "Full name": "Van Hilpert",
+        "Email": "Shannon90@gmail.com",
+        "Phone number": "211-841-3688",
+        "Country": "Vanuatu"
+    },
+    {
+        "UUID": "be17221b-8b12-4c26-b0c3-949c01ead77a",
+        "Full name": "Cindy Haley",
+        "Email": "Guillermo_Blanda11@hotmail.com",
+        "Phone number": "841-352-9527 x021",
+        "Country": "Luxembourg"
+    },
+    {
+        "UUID": "4c97da19-508d-4dfe-94ee-29bdba13f923",
+        "Full name": "Jeffrey Towne",
+        "Email": "Casey74@gmail.com",
+        "Phone number": "430-468-1010 x1025",
+        "Country": "Japan"
+    },
+    {
+        "UUID": "dfaf27f7-b8d2-473a-800f-82408f19d851",
+        "Full name": "Lavinia Doyle",
+        "Email": "Weston80@yahoo.com",
+        "Phone number": "(470) 758-1723",
+        "Country": "Vanuatu"
+    },
+    {
+        "UUID": "e158ac4f-4593-47ee-b84c-01c76de04a1b",
+        "Full name": "Makenna Yost",
+        "Email": "Weldon86@yahoo.com",
+        "Phone number": "316-344-2940",
+        "Country": "Costa Rica"
+    },
+    {
+        "UUID": "a6ab8b6e-16f0-45a9-9ab9-d82948131a45",
+        "Full name": "Kaden Shields III",
+        "Email": "Schuyler.Emard@hotmail.com",
+        "Phone number": "1-659-032-2585",
+        "Country": "South Africa"
+    },
+    {
+        "UUID": "4edf9864-df4d-4003-aad9-f0769cd3b403",
+        "Full name": "Felipe Schmidt",
+        "Email": "Kirk_Berge@gmail.com",
+        "Phone number": "(094) 281-1169",
+        "Country": "Saint Helena"
+    },
+    {
+        "UUID": "3fd237ad-5629-4363-b365-5c7f8f0e36ff",
+        "Full name": "Connie Homenick",
+        "Email": "Astrid12@gmail.com",
+        "Phone number": "1-314-501-8260",
+        "Country": "Democratic People's Republic of Korea"
+    },
+    {
+        "UUID": "9886b2a5-1320-4ce3-bdf8-30090ba57e53",
+        "Full name": "Reanna Yost",
+        "Email": "Earnest_Daniel90@hotmail.com",
+        "Phone number": "(479) 182-4310",
+        "Country": "Bhutan"
+    },
+    {
+        "UUID": "86d36ad2-8857-486a-9d11-254cd4a11b8d",
+        "Full name": "Harold Ratke II",
+        "Email": "Bethany.Ankunding68@yahoo.com",
+        "Phone number": "(220) 340-1018 x06790",
+        "Country": "Kiribati"
+    },
+    {
+        "UUID": "c038af97-425c-4fcc-8c89-1679a7fe7a19",
+        "Full name": "Aida Jerde",
+        "Email": "Juanita2@yahoo.com",
+        "Phone number": "354-545-3771",
+        "Country": "Heard Island and McDonald Islands"
+    }
+]
+
+village_2_data = [
+    {
+        "UUID": "147efd9a-a488-4d0f-a96b-6ec45ffd6e80",
+        "Full name": "Mr. Jessica Mante",
+        "Email": "Marcus_Kirlin72@yahoo.com",
+        "Phone number": "210-875-3791 x589",
+        "Country": "Republic of Korea"
+    },
+    {
+        "UUID": "71ba7ddd-4cb2-46a4-9a9c-34ef9f9bdaa1",
+        "Full name": "Ilene Huel",
+        "Email": "Valerie_Beahan@gmail.com",
+        "Phone number": "214.725.2233 x0538",
+        "Country": "Finland"
+    },
+    {
+        "UUID": "7058bd6a-7aff-4084-8c1a-42b9f94935db",
+        "Full name": "Lois Keebler IV",
+        "Email": "Courtney.Brakus@gmail.com",
+        "Phone number": "209-895-8466",
+        "Country": "Cocos (Keeling) Islands"
+    },
+    {
+        "UUID": "9e119073-2dc9-4876-92f9-c7258370cf9d",
+        "Full name": "Glenda Schmeler",
+        "Email": "Tatyana.Welch76@gmail.com",
+        "Phone number": "1-925-993-7862 x150",
+        "Country": "United Kingdom"
+    },
+    {
+        "UUID": "f04962c6-15d9-43a0-be35-b4bcf3ca60ed",
+        "Full name": "Joel Quitzon",
+        "Email": "Christop.Nicolas40@gmail.com",
+        "Phone number": "503.616.3293 x18396",
+        "Country": "Pakistan"
+    },
+    {
+        "UUID": "58765c89-4656-435a-88d1-b0a7869c1d55",
+        "Full name": "Eloy Cassin",
+        "Email": "Nikita46@yahoo.com",
+        "Phone number": "682.716.5824 x4358",
+        "Country": "Reunion"
+    },
+    {
+        "UUID": "5a257a19-c06a-4f32-ac5a-226fc0f9502f",
+        "Full name": "Lillie Wuckert II",
+        "Email": "Christopher95@yahoo.com",
+        "Phone number": "1-475-998-9065 x68512",
+        "Country": "Trinidad and Tobago"
+    },
+    {
+        "UUID": "a08dacbc-2848-4192-b7c6-c01665cc43b6",
+        "Full name": "Mr. Caroline Johnson",
+        "Email": "Claud30@yahoo.com",
+        "Phone number": "796.911.6550",
+        "Country": "Republic of Korea"
+    },
+    {
+        "UUID": "15e19f4f-4a17-4a5e-925b-d59e6afc2e33",
+        "Full name": "Marisol Harris",
+        "Email": "Hector8@hotmail.com",
+        "Phone number": "1-937-477-4237 x3834",
+        "Country": "Guinea-Bissau"
+    },
+    {
+        "UUID": "0c4fd702-e1f7-444d-b8bb-441e3df5f9f3",
+        "Full name": "Hope Durgan",
+        "Email": "Emmitt_Kuhn@yahoo.com",
+        "Phone number": "357.609.0113 x9863",
+        "Country": "Romania"
+    },
+    {
+        "UUID": "b219edf6-25fd-456e-bb00-5f4ee177ed70",
+        "Full name": "Winston Stiedemann",
+        "Email": "Willa.Armstrong@hotmail.com",
+        "Phone number": "563-568-9927 x95948",
+        "Country": "Brunei Darussalam"
+    },
+    {
+        "UUID": "0662ab16-8189-48c7-a994-eb1f4f8fb368",
+        "Full name": "Mr. Shane Jacobs",
+        "Email": "Abe93@gmail.com",
+        "Phone number": "444-943-6334 x73901",
+        "Country": "Fiji"
+    },
+    {
+        "UUID": "bec27af4-59cc-473b-a9ff-b593e396b8a4",
+        "Full name": "Mr. Darlene Stark",
+        "Email": "Fletcher42@gmail.com",
+        "Phone number": "(458) 497-2118",
+        "Country": "Lesotho"
+    },
+    {
+        "UUID": "d7bc17d9-0a36-42cc-a7b1-283301a92264",
+        "Full name": "Lelah Hand",
+        "Email": "Cassandra.Bauch@yahoo.com",
+        "Phone number": "1-875-084-6544",
+        "Country": "Haiti"
+    },
+    {
+        "UUID": "e39c49a9-5ae7-4b05-8d12-6037288c1776",
+        "Full name": "Mercedes Lebsack I",
+        "Email": "Kenna75@hotmail.com",
+        "Phone number": "319-666-9328 x1084",
+        "Country": "Bulgaria"
+    },
+    {
+        "UUID": "cdbe1a63-71db-46ed-9258-7e4b7b3f27fb",
+        "Full name": "Mr. Lexus Koch",
+        "Email": "Rodrick75@hotmail.com",
+        "Phone number": "102-776-4066 x2406",
+        "Country": "Turks and Caicos Islands"
+    },
+    {
+        "UUID": "eddd6563-bf64-4df3-80b4-d820c1c80a43",
+        "Full name": "Greta Rau",
+        "Email": "Maxime.Connelly@hotmail.com",
+        "Phone number": "(033) 391-1030",
+        "Country": "Turkey"
+    },
+    {
+        "UUID": "9f8c2a00-7dbf-4656-bda2-044c8da3d989",
+        "Full name": "Frida Hoppe",
+        "Email": "Jerald15@yahoo.com",
+        "Phone number": "(695) 515-1448",
+        "Country": "Antigua and Barbuda"
+    },
+    {
+        "UUID": "c9591cd9-b240-49c4-898a-e68e5b739727",
+        "Full name": "Miracle Hudson",
+        "Email": "Lonzo86@yahoo.com",
+        "Phone number": "1-347-168-0127 x5423",
+        "Country": "Cape Verde"
+    },
+    {
+        "UUID": "699b0186-e9c4-467d-8d1b-10fd6c7257ec",
+        "Full name": "Amelie Volkman",
+        "Email": "Dane44@gmail.com",
+        "Phone number": "1-105-964-0804 x35765",
+        "Country": "Bahrain"
+    },
+    {
+        "UUID": "5be88968-4ec3-4a19-97ab-da376a3e71c3",
+        "Full name": "Ardith Goodwin",
+        "Email": "Miguel_Kunde58@yahoo.com",
+        "Phone number": "1-011-115-5535",
+        "Country": "Saint Lucia"
+    },
+    {
+        "UUID": "bb451a35-5751-43e5-adbc-ff9b0e206d54",
+        "Full name": "Jazmin Gerlach",
+        "Email": "Meghan_VonRueden76@hotmail.com",
+        "Phone number": "150.980.9167 x137",
+        "Country": "Japan"
+    },
+    {
+        "UUID": "efc08235-677e-4e9d-a502-d5a5b3188a9e",
+        "Full name": "Lula McClure",
+        "Email": "Shyanne87@hotmail.com",
+        "Phone number": "824.371.5634",
+        "Country": "Macedonia"
+    },
+    {
+        "UUID": "38d00144-6ccf-4612-b0e6-d1612272f577",
+        "Full name": "Larry Hickle",
+        "Email": "Raphael.Cronin@gmail.com",
+        "Phone number": "664-536-6503 x958",
+        "Country": "Sri Lanka"
+    },
+    {
+        "UUID": "e4e3f460-bb4c-4cdc-9502-253412589638",
+        "Full name": "Juston Bins",
+        "Email": "Reginald61@gmail.com",
+        "Phone number": "1-227-829-3343",
+        "Country": "Kenya"
+    },
+    {
+        "UUID": "68f6eedc-a08f-47a3-abea-dd94d62c1ba4",
+        "Full name": "Corbin Raynor",
+        "Email": "Joe71@yahoo.com",
+        "Phone number": "1-849-741-6694",
+        "Country": "Uganda"
+    },
+    {
+        "UUID": "ff672a5e-a407-4e79-be4e-6d15458a9352",
+        "Full name": "Bette Schaefer",
+        "Email": "Jacklyn_Wuckert@gmail.com",
+        "Phone number": "259-796-8731 x17540",
+        "Country": "Armenia"
+    },
+    {
+        "UUID": "62171e64-3663-4e66-98e7-d9b8ef62f634",
+        "Full name": "Holly Kling",
+        "Email": "Laurence35@gmail.com",
+        "Phone number": "(398) 466-3892 x516",
+        "Country": "Gabon"
+    },
+    {
+        "UUID": "93813102-db70-412b-a5ef-328e7e81d0fd",
+        "Full name": "Aisha Morar PhD",
+        "Email": "Abelardo_Luettgen@gmail.com",
+        "Phone number": "1-296-892-8807 x3267",
+        "Country": "Zimbabwe"
+    },
+    {
+        "UUID": "ef495cb6-afc8-4863-8055-b76061b80834",
+        "Full name": "Cordia Muller",
+        "Email": "Jadon.Schaden@yahoo.com",
+        "Phone number": "527.727.8064",
+        "Country": "Virgin Islands, U.S."
+    },
+    {
+        "UUID": "f8b37b9c-60b6-46cf-8495-c89479628608",
+        "Full name": "Shaina Williamson",
+        "Email": "Norene_Wunsch@yahoo.com",
+        "Phone number": "479-013-6431",
+        "Country": "Austria"
+    },
+    {
+        "UUID": "82017c3b-f47d-4b8a-89b2-8cc5418ece57",
+        "Full name": "Alfredo Labadie",
+        "Email": "Timothy_Rolfson31@yahoo.com",
+        "Phone number": "(122) 686-7676",
+        "Country": "Saint Helena"
+    },
+    {
+        "UUID": "0c3dea13-cf74-4bd8-a8c9-4c60784a3d6d",
+        "Full name": "Astrid Renner",
+        "Email": "Carter86@yahoo.com",
+        "Phone number": "(386) 195-0095 x195",
+        "Country": "Bermuda"
+    },
+    {
+        "UUID": "8cfba5b5-358e-4c77-b6e5-d8c015c69d30",
+        "Full name": "Amber Koch",
+        "Email": "Harvey.Feil4@gmail.com",
+        "Phone number": "118-154-0953 x265",
+        "Country": "American Samoa"
+    },
+    {
+        "UUID": "716acfa7-d193-4685-b8e7-663159b7eac2",
+        "Full name": "Miss Constance Ernser",
+        "Email": "Cloyd39@hotmail.com",
+        "Phone number": "461.656.4282 x19661",
+        "Country": "Venezuela"
+    },
+    {
+        "UUID": "482c72b9-d51e-4669-8dde-598cc94782a3",
+        "Full name": "Enrique Farrell",
+        "Email": "Lulu_Schaden33@hotmail.com",
+        "Phone number": "264.050.3123 x801",
+        "Country": "Cuba"
+    },
+    {
+        "UUID": "b94754ef-0e66-40b3-ad05-1dfbb884a5d7",
+        "Full name": "Alaina Robel",
+        "Email": "Felton72@hotmail.com",
+        "Phone number": "(497) 500-6404",
+        "Country": "Belgium"
+    },
+    {
+        "UUID": "1b90f56a-32fd-484c-a996-0be87976650b",
+        "Full name": "Reed Hand",
+        "Email": "Madelynn_Windler16@hotmail.com",
+        "Phone number": "269-650-1412 x773",
+        "Country": "Estonia"
+    },
+    {
+        "UUID": "9bd7dc0c-4f76-494d-a811-8cd4fd975b41",
+        "Full name": "Emmanuelle Mayert",
+        "Email": "Yolanda.Hane@yahoo.com",
+        "Phone number": "1-429-223-2480",
+        "Country": "Kenya"
+    },
+    {
+        "UUID": "a2032e36-e578-4b93-86c4-a0e35af0ad36",
+        "Full name": "Carey Ernser",
+        "Email": "Briana.Koch29@gmail.com",
+        "Phone number": "847-914-0945 x033",
+        "Country": "Paraguay"
+    },
+    {
+        "UUID": "47dc1d37-e5a1-491c-b2d4-390a26fac94d",
+        "Full name": "Tre O'Hara",
+        "Email": "Cydney54@hotmail.com",
+        "Phone number": "009-420-0143 x087",
+        "Country": "Anguilla"
+    },
+    {
+        "UUID": "e5f54e4f-b124-4744-be78-42ccd0b6a903",
+        "Full name": "Chelsea Bashirian",
+        "Email": "Opal_Haley@yahoo.com",
+        "Phone number": "(516) 092-3476",
+        "Country": "Netherlands Antilles"
+    },
+    {
+        "UUID": "82f0c30e-4daf-4c5a-a9f7-502a3fbe3511",
+        "Full name": "Dameon Roob",
+        "Email": "Shad_Trantow@hotmail.com",
+        "Phone number": "066.944.4791 x88811",
+        "Country": "Cyprus"
+    },
+    {
+        "UUID": "976f4138-7b83-46c8-8867-14895f9ac235",
+        "Full name": "Elyse Schmidt",
+        "Email": "Vaughn.Huel80@gmail.com",
+        "Phone number": "177.141.0420",
+        "Country": "Djibouti"
+    },
+    {
+        "UUID": "24e99a7d-7595-4250-9d30-ec8a500e6902",
+        "Full name": "Noemie Kling",
+        "Email": "Deven.DAmore@yahoo.com",
+        "Phone number": "066.738.5316 x720",
+        "Country": "Saint Pierre and Miquelon"
+    },
+    {
+        "UUID": "b970c89b-f40b-423c-b950-76cf98adfcac",
+        "Full name": "Assunta Krajcik",
+        "Email": "Kylee49@hotmail.com",
+        "Phone number": "683.450.6648 x49769",
+        "Country": "Kiribati"
+    },
+    {
+        "UUID": "f40f7375-fc77-49c6-9738-8f4a7a22476d",
+        "Full name": "Ms. Leila Rath",
+        "Email": "Jacinto_Donnelly@gmail.com",
+        "Phone number": "(064) 470-0730",
+        "Country": "Pakistan"
+    },
+    {
+        "UUID": "f24f5bd1-33ab-4398-a765-b532fd02e519",
+        "Full name": "Gonzalo Hilpert",
+        "Email": "Stewart13@yahoo.com",
+        "Phone number": "940-776-0230",
+        "Country": "Cape Verde"
+    },
+    {
+        "UUID": "3c42e119-4a6b-423d-9122-c8aea3291c3f",
+        "Full name": "Gabriel Larson",
+        "Email": "Emery84@hotmail.com",
+        "Phone number": "1-217-245-7391",
+        "Country": "Nepal"
+    },
+    {
+        "UUID": "ff2a584b-2d05-4a9f-84a1-4f7645e17d97",
+        "Full name": "Tina Padberg",
+        "Email": "Werner_Wiza34@hotmail.com",
+        "Phone number": "(007) 731-5490 x23086",
+        "Country": "Belarus"
+    },
+    {
+        "UUID": "68e6c8b8-ed1a-4173-af08-94181d3a3038",
+        "Full name": "Glenda Haag",
+        "Email": "Lafayette_Cummings79@gmail.com",
+        "Phone number": "1-356-404-3353 x5003",
+        "Country": "Moldova"
+    },
+    {
+        "UUID": "f73dda61-05bd-425c-910c-32b13f313b4a",
+        "Full name": "Elyse Ledner DVM",
+        "Email": "Angel.Renner5@hotmail.com",
+        "Phone number": "605-303-6812",
+        "Country": "Dominican Republic"
+    },
+    {
+        "UUID": "82908557-a628-4047-9da2-b802295fb63c",
+        "Full name": "Freeda Wintheiser I",
+        "Email": "Elouise98@yahoo.com",
+        "Phone number": "117-864-1219 x665",
+        "Country": "Morocco"
+    },
+    {
+        "UUID": "d62b585b-ac76-4ff5-a53a-c53a3ccd3fa7",
+        "Full name": "Mr. Isaac Turner",
+        "Email": "Jackeline89@hotmail.com",
+        "Phone number": "870.712.8852 x00553",
+        "Country": "Chad"
+    },
+    {
+        "UUID": "fc855e9f-4936-4304-a511-47d84843027a",
+        "Full name": "Dylan Heathcote",
+        "Email": "Annamae64@yahoo.com",
+        "Phone number": "1-351-231-0022 x925",
+        "Country": "Reunion"
+    },
+    {
+        "UUID": "3f4afc77-9f80-4883-ab06-4c673247cac4",
+        "Full name": "Norene Monahan",
+        "Email": "Victor_Schulist84@hotmail.com",
+        "Phone number": "947-520-9557 x5822",
+        "Country": "Eritrea"
+    },
+    {
+        "UUID": "3b3d4367-8884-4581-9262-245c953c4439",
+        "Full name": "Darien Effertz",
+        "Email": "Lukas_King@gmail.com",
+        "Phone number": "669.805.0143 x6936",
+        "Country": "Uganda"
+    },
+    {
+        "UUID": "85cc1198-cc8b-4eae-a686-51db05cd07d7",
+        "Full name": "Porter Gusikowski DVM",
+        "Email": "Chauncey88@yahoo.com",
+        "Phone number": "147.153.1083 x72008",
+        "Country": "Turkey"
+    },
+    {
+        "UUID": "4bbac20f-609b-48c9-9772-07d3acc02754",
+        "Full name": "Theron Brakus",
+        "Email": "Rosella60@gmail.com",
+        "Phone number": "649-763-4866",
+        "Country": "Seychelles"
+    },
+    {
+        "UUID": "b069448a-eb1f-495e-820a-a9262b4bc661",
+        "Full name": "Mrs. Arnaldo Balistreri",
+        "Email": "Vincent44@hotmail.com",
+        "Phone number": "1-541-174-7791",
+        "Country": "Western Sahara"
+    },
+    {
+        "UUID": "edf2d934-2509-4d40-ac4c-a083f7b90971",
+        "Full name": "Rosalyn Lind",
+        "Email": "Merle.Olson@hotmail.com",
+        "Phone number": "(420) 886-5084 x9610",
+        "Country": "Norfolk Island"
+    },
+    {
+        "UUID": "2d1461d3-f573-4e0d-bb50-31a8ee34e51b",
+        "Full name": "Lina Bayer",
+        "Email": "Jennie59@hotmail.com",
+        "Phone number": "318-243-3078",
+        "Country": "French Guiana"
+    },
+    {
+        "UUID": "78e8beab-b779-489e-a930-886cbb26cb90",
+        "Full name": "Raegan Kshlerin",
+        "Email": "Amari17@hotmail.com",
+        "Phone number": "(536) 843-7297 x905",
+        "Country": "Monaco"
+    },
+    {
+        "UUID": "b8d842f9-fcdb-4e4a-b224-b279869fa850",
+        "Full name": "Mr. Erwin Graham",
+        "Email": "Aditya_Grimes@hotmail.com",
+        "Phone number": "1-574-081-9751",
+        "Country": "Malawi"
+    },
+    {
+        "UUID": "0fe0cc29-1505-491e-819c-1750eaabc981",
+        "Full name": "Jada Ferry",
+        "Email": "Emmett95@yahoo.com",
+        "Phone number": "(425) 771-7985 x070",
+        "Country": "Aruba"
+    },
+    {
+        "UUID": "4464ace3-5135-4617-b6c0-11bb9ddc3e22",
+        "Full name": "Gennaro Rempel",
+        "Email": "Ollie.Kunze65@gmail.com",
+        "Phone number": "276.534.2527",
+        "Country": "Turkey"
+    },
+    {
+        "UUID": "14ab75ed-d07e-41a9-9468-aeeec770169e",
+        "Full name": "Joey O'Keefe",
+        "Email": "Ressie65@yahoo.com",
+        "Phone number": "320-382-7660",
+        "Country": "Guinea-Bissau"
+    },
+    {
+        "UUID": "d6cf6dfe-cfb4-41e9-9b57-9aead820161c",
+        "Full name": "Orie Orn",
+        "Email": "Nia_Parisian@yahoo.com",
+        "Phone number": "1-947-236-0574",
+        "Country": "United States of America"
+    },
+    {
+        "UUID": "ee72811d-65cb-4c09-81b3-860e22997988",
+        "Full name": "Shanna Conroy V",
+        "Email": "Oliver71@gmail.com",
+        "Phone number": "673-131-1994",
+        "Country": "Niger"
+    },
+    {
+        "UUID": "55e887c4-c7fe-4cd9-a9fa-923c33489212",
+        "Full name": "Miguel Graham",
+        "Email": "Lera17@gmail.com",
+        "Phone number": "861-689-2303 x97749",
+        "Country": "Lebanon"
+    },
+    {
+        "UUID": "c2d2b3d0-ecbb-4a4d-a504-f13724db8757",
+        "Full name": "Florence Ryan",
+        "Email": "Jacinthe.Klein10@hotmail.com",
+        "Phone number": "1-663-568-5575 x248",
+        "Country": "Guyana"
+    },
+    {
+        "UUID": "56125b29-eb8a-409e-840b-8780809c2b99",
+        "Full name": "Candace Larson",
+        "Email": "Ayden53@hotmail.com",
+        "Phone number": "353.100.2941",
+        "Country": "Gibraltar"
+    },
+    {
+        "UUID": "102f5266-551e-4c3b-88c7-32a2c7fd0016",
+        "Full name": "Rozella Lebsack II",
+        "Email": "Marcus.Anderson44@gmail.com",
+        "Phone number": "1-274-459-5951",
+        "Country": "Kyrgyz Republic"
+    },
+    {
+        "UUID": "2ba8cc3e-1cd1-44b1-a9c1-08cc2264c4a3",
+        "Full name": "Ms. Tyree Becker",
+        "Email": "Kara_Hintz@yahoo.com",
+        "Phone number": "(483) 776-4281",
+        "Country": "Japan"
+    },
+    {
+        "UUID": "b93f451d-d32f-499b-9508-c6d714f05a81",
+        "Full name": "Rosa Schinner",
+        "Email": "Nia.Erdman41@yahoo.com",
+        "Phone number": "518.162.0027",
+        "Country": "Brazil"
+    },
+    {
+        "UUID": "5385f4f6-f62c-4c09-bdbc-dba807ce4e62",
+        "Full name": "Will Treutel",
+        "Email": "Emily_Bailey0@hotmail.com",
+        "Phone number": "504.685.2046 x790",
+        "Country": "Philippines"
+    },
+    {
+        "UUID": "0b63d562-b2da-4795-9840-ffccce314977",
+        "Full name": "Hans Reinger",
+        "Email": "Shany.Schroeder@gmail.com",
+        "Phone number": "344.752.1650 x539",
+        "Country": "Taiwan"
+    },
+    {
+        "UUID": "4632c802-c480-4b71-9134-21981960b86c",
+        "Full name": "Remington Huel",
+        "Email": "Beth.Lemke18@hotmail.com",
+        "Phone number": "232.762.9301 x4983",
+        "Country": "Czech Republic"
+    },
+    {
+        "UUID": "101e8a0e-8eba-4c43-bfba-5be9eeba521f",
+        "Full name": "Myrl Lebsack",
+        "Email": "Wendell_Lubowitz@gmail.com",
+        "Phone number": "227.060.6752 x22639",
+        "Country": "Indonesia"
+    },
+    {
+        "UUID": "97ce76ee-0ae3-4928-9999-e515950b59ae",
+        "Full name": "Madelyn Schinner",
+        "Email": "Damion.Hagenes@hotmail.com",
+        "Phone number": "923.839.1047 x77750",
+        "Country": "Ghana"
+    }
+]
+
+# Find individuals who belong to both villages
+both_villages_data = []
+for person_v1 in village_1_data:
+    for person_v2 in village_2_data:
+        if person_v1["UUID"] == person_v2["UUID"]:
+            both_villages_data.append(person_v1)
+            break
+
+# Find individuals who belong only to Village 1
+only_village_1_data = []
+for person_v1 in village_1_data:
+    found = False
+    for person_v2 in village_2_data:
+        if person_v1["UUID"] == person_v2["UUID"]:
+            found = True
+            break
+    if not found:
+        only_village_1_data.append(person_v1)
+
+# Find individuals who belong only to Village 2
+only_village_2_data = []
+for person_v2 in village_2_data:
+    found = False
+    for person_v1 in village_1_data:
+        if person_v2["UUID"] == person_v1["UUID"]:
+            found = True
+            break
+    if not found:
+        only_village_2_data.append(person_v2)
+
+
+        
+# Print the matched data
+print("Data for individuals who live in both villages:")
+for person in both_villages_data:
+    print(person)
+print("No match found")
+print()
+
+print("Data for individuals who live only in Village 1:")
+for person in only_village_1_data:
+    print(f"UUID: {person['UUID']}")
+    print(f"Full name: {person['Full name']}")
+    print(f"Email: {person['Email']}")
+    print(f"Phone number: {person['Phone number']}")
+    print(f"Country: {person['Country']}")
+print()
+
+print("Data for individuals who live only in Village 2:")
+for person in only_village_2_data:
+    print(f"UUID: {person['UUID']}")
+    print(f"Full name: {person['Full name']}")
+    print(f"Email: {person['Email']}")
+    print(f"Phone number: {person['Phone number']}")
+    print(f"Country: {person['Country']}")
+print()

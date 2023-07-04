@@ -1,0 +1,57 @@
+Assignment 1:
+
+Create an Employee class with properties as:
+- compantId
+- departmetId
+- firstName
+- lastName
+- emailId
+- age
+- salary
+
+Implement a method called "calculateBonus" that calculates a bonus based on the salary. 
+
+Now derive two classes:
+- Manager
+- Engineer
+from the Employee class. 
+
+The Manager class should have an additional property 
+- for the number of subordinates
+
+The Engineer class should have an additional property 
+- for the number of projects completed
+
+Override the "calculateBonus" method in each subclass to calculate the bonus based on specific criteria. 
+
+Now execute your classes by creating instances and calling the "calculateBonus" method.
+
+
+
+Assignment 2:
+
+Create a Laptop class with properties like 
+- brand
+- model
+- price
+- company 
+- company DUNS (Data Universal Numbering System: a 9-digit unique identifier for businesses) number
+
+
+Now:
+1. Implement a method called applyDiscount that calculates the discounted price based on a given discount percentage. 
+
+2. Derive two classes:
+- BudgetLaptop
+- PremiumLaptop from the Laptop class. 
+
+Add specific properties and methods to each derived class, such as 
+- maximumRAM for BudgetLaptop and 
+- graphicsCard for PremiumLaptop
+- harDiskCapacity for both BudgetLaptop, PremiumLaptop
+
+3. Override the applyDiscount method in each subclass to adjust the discount calculation based on the laptop type. 
+
+Create instances of both classes and test the applyDiscount method.
+
+

@@ -1,0 +1,66 @@
+# Define the Laptop class with properties: brand, model, price, company, and companyDUNS.
+class Laptop:
+    def __init__(self, brand, model, price, company, companyDUNS):
+        # Initialize the properties of the Laptop class
+        self.brand = brand
+        self.model = model
+        self.price = price
+        self.company = company
+        self.companyDUNS = companyDUNS
+
+    def applyDiscount(self, discount_percentage):
+        # Calculate the discounted price by subtracting the discount amount from the original price.
+        discounted_price = self.price - (self.price * discount_percentage / 100)
+        return discounted_price
+
+    def __str__(self):
+        # Provide a formatted string representation of the laptop.
+        return f"Laptop Details: Brand - {self.brand}, Model - {self.model}, Price - {self.price}"
+
+# Define a subclass called BudgetLaptop, inheriting from the Laptop class.
+class BudgetLaptop(Laptop):
+    def __init__(self, brand, model, price, company, companyDUNS, maximumRAM, hardDiskCapacity):
+        # Call the __init__ method of the base class (Laptop) using super() to initialize common properties.
+        super().__init__(brand, model, price, company, companyDUNS)
+        # Add specific properties for BudgetLaptop: maximumRAM and hardDiskCapacity.
+        self.maximumRAM = maximumRAM
+        self.hardDiskCapacity = hardDiskCapacity
+
+    def applyDiscount(self, discount_percentage):
+        # Adjust the discount calculation for BudgetLaptop.
+        if self.hardDiskCapacity >= 500:  # If hard disk capacity is 500GB or more, apply an additional 5% discount.
+            discount_percentage += 5
+        discounted_price = self.price - (self.price * discount_percentage / 100)
+        return discounted_price
+
+# Define a subclass called PremiumLaptop, inheriting from the Laptop class.
+class PremiumLaptop(Laptop):
+    def __init__(self, brand, model, price, company, companyDUNS, graphicsCard, hardDiskCapacity):
+        # Call the __init__ method of the base class (Laptop) using super() to initialize common properties.
+        super().__init__(brand, model, price, company, companyDUNS)
+        # Add specific properties for PremiumLaptop: graphicsCard and hardDiskCapacity.
+        self.graphicsCard = graphicsCard
+        self.hardDiskCapacity = hardDiskCapacity
+
+    def applyDiscount(self, discount_percentage):
+        # Adjust the discount calculation for PremiumLaptop.
+        if self.graphicsCard == "NVIDIA RTX 3080":  # If the laptop has an NVIDIA RTX 3080 graphics card, apply an additional 10% discount.
+            discount_percentage += 10
+        discounted_price = self.price - (self.price * discount_percentage / 100)
+        return discounted_price
+
+# Create instances of BudgetLaptop and PremiumLaptop classes and test the applyDiscount method.
+laptop1 = BudgetLaptop("HP", "Pavilion", 50000, "HP Inc.", "123456789", "8GB", 1000)
+laptop2 = PremiumLaptop("Dell", "XPS 15", 150000, "Dell Technologies", "987654321", "NVIDIA RTX 3080", 1000)
+
+discount_percentage = 10
+
+# Calculate the discounted prices using the applyDiscount method for each laptop instance.
+discounted_price_laptop1 = laptop1.applyDiscount(discount_percentage)
+discounted_price_laptop2 = laptop2.applyDiscount(discount_percentage)
+
+# Print the laptop details and discounted prices.
+print(laptop1)  # Print the string representation of laptop1 using the __str__ method.
+print("Laptop 1 Discounted Price:", discounted_price_laptop1)
+print(laptop2)  # Print the string representation of laptop2 using the __str__ method.
+print("Laptop 2 Discounted Price:", discounted_price_laptop2)

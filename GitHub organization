@@ -1,0 +1,72 @@
+import requests
+import time
+
+# Replace these variables with your GitHub organization name and access token (optional)
+ORGANIZATION = "Siran41"
+ACCESS_TOKEN = ""  # If you have one, leave empty if you don't have it.
+
+base_url = "https://api.github.com"
+
+def get_response(url):
+    headers = {}
+    if ACCESS_TOKEN:
+        headers["Authorization"] = f"Bearer {ACCESS_TOKEN}"
+
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Request to {url} failed with status code: {response.status_code}")
+        return None
+
+def get_contributors(owner, repo):
+    url = f"{base_url}/repos/{owner}/{repo}/contributors"
+    return get_response(url)
+
+def get_languages(owner, repo):
+    url = f"{base_url}/repos/{owner}/{repo}/languages"
+    return get_response(url)
+
+def get_code_frequency(owner, repo):
+    url = f"{base_url}/repos/{owner}/{repo}/stats/code_frequency"
+    return get_response(url)
+
+def get_all_repos():
+    url = f"{base_url}/orgs/{ORGANIZATION}/repos"
+    return get_response(url)
+
+def main():
+    repos = get_all_repos()
+
+    if repos is None:
+        print("Error getting repository information.")
+        return
+
+    for repo in repos:
+        repo_name = repo["name"]
+        contributors = get_contributors(ORGANIZATION, repo_name)
+        languages = get_languages(ORGANIZATION, repo_name)
+        code_frequency = get_code_frequency(ORGANIZATION, repo_name)
+
+        print(f"Repo: {repo_name}")
+
+        if contributors is not None and isinstance(contributors, list):
+            print(f"Contributors for {repo_name}: {', '.join([c['login'] for c in contributors])}")
+        else:
+            print(f"Contributors for {repo_name}: Error getting contributors")
+
+        if languages is not None and isinstance(languages, dict):
+            print(f"Languages: {', '.join(languages.keys())}")
+        else:
+            print(f"Languages: Error getting languages")
+
+        if code_frequency is not None and isinstance(code_frequency, list):
+            print(f"Code Frequency: {code_frequency}")
+        else:
+            print(f"Code Frequency: Error getting code frequency")
+
+        print("\n")
+
+if __name__ == "__main__":
+    main()

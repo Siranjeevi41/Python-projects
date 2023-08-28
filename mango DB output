@@ -1,3 +1,13 @@
+Assignment questions for the above json:
+
+1. Find all villages which are active. Derive their number.
+2. Find all villages with 'publicFund' exceeding 1000
+3. Find all villages with string 'La' or 'ha' any where in 'name'
+4. Find all villages with string 'La' or 'ha' only in starting in 'name'
+5. Find all villages with string 'La' and 'ha' anywhere in 'name'
+6. Find all villages with 'villageGoal' that contains 'pariatur'  (no case sensitive) anywhere in that field.
+
+
 village> db.village.find()
 [
   {

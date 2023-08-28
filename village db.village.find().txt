@@ -1,0 +1,974 @@
+village> db.village.find()
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce52"),
+    uuid: '64ec26d5d1786fdde57b650a',
+    name: 'Haley Weaver',
+    villageGoal: 'Non eu qui ut pariatur ullamco cillum labore irure. Ut qui proident ut quis exercitation occaecat ad sunt anim. Eiusmod excepteur fugiat deserunt elit consectetur qui ad do.\r\n',
+    villanName: 'COMCUR',
+    isActive: true,
+    publicFund: '2,121.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce53"),
+    uuid: '64ec26d53839f406fb761cff',
+    name: 'Tracie Lambert',
+    villageGoal: 'Exercitation ex commodo sunt qui non nisi incididunt esse quis minim. Sunt mollit esse dolore adipisicing Lorem. Deserunt voluptate consequat laboris adipisicing est exercitation velit deserunt quis. Ut eiusmod reprehenderit ex deserunt commodo eiusmod consectetur esse nostrud.\r\n',
+    villanName: 'TALKALOT',
+    isActive: false,
+    publicFund: '3,404.68'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce54"),
+    uuid: '64ec26d5f1a49083933777fc',
+    name: 'Brooks Mccormick',
+    villageGoal: 'Dolore aliqua pariatur ad cupidatat adipisicing exercitation non esse minim amet. Excepteur deserunt est ex velit sint magna nulla qui nostrud nulla officia. Sint laborum consectetur dolor sint in.\r\n',
+    villanName: 'GINKOGENE',
+    isActive: false,
+    publicFund: '3,490.91'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce55"),
+    uuid: '64ec26d53e2beb3fa5906892',
+    name: 'Guy Johns',
+    villageGoal: 'Sit magna exercitation adipisicing mollit magna quis minim exercitation proident minim labore ea fugiat. Mollit quis ut duis enim anim ex. Magna amet ut reprehenderit adipisicing minim aliqua do ex minim excepteur ipsum. Reprehenderit pariatur tempor dolore occaecat magna excepteur nulla exercitation do. Nostrud aliquip et velit culpa anim cupidatat.\r\n',
+    villanName: 'SCENTRIC',
+    isActive: true,
+    publicFund: '1,306.79'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce56"),
+    uuid: '64ec26d5b2412ce296f3193e',
+    name: 'Juliet Hickman',
+    villageGoal: 'Proident minim ex mollit officia elit ipsum exercitation labore fugiat reprehenderit voluptate sit laborum sunt. Ullamco sunt sint et occaecat veniam irure id elit enim amet aliqua. Aute officia incididunt voluptate ipsum ipsum officia dolor duis. Culpa nostrud incididunt voluptate minim enim officia incididunt. Qui magna nisi id cillum quis et labore laboris et culpa.\r\n',
+    villanName: 'COMSTRUCT',
+    isActive: false,
+    publicFund: '2,497.61'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce57"),
+    uuid: '64ec26d5c6b37a25de9e315f',
+    name: 'Susana Ryan',
+    villageGoal: 'Sunt non duis tempor cillum aliqua culpa do cupidatat ad voluptate culpa cupidatat. Et qui amet fugiat elit elit dolore fugiat exercitation. Est ea Lorem dolore deserunt mollit nisi dolor nostrud mollit ut. Elit aliqua consectetur officia adipisicing eiusmod aute exercitation exercitation. Aute amet nulla adipisicing commodo deserunt ut excepteur ipsum eu. Voluptate cillum consectetur elit dolor commodo magna nisi non tempor nostrud ex culpa amet ad. Occaecat in sint Lorem commodo officia aliquip adipisicing veniam.\r\n',
+    villanName: 'TEMORAK',
+    isActive: true,
+    publicFund: '1,557.42'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce58"),
+    uuid: '64ec26d5f23fff804b3d1a23',
+    name: 'Valdez Weber',
+    villageGoal: 'Consequat anim nulla in exercitation minim aute reprehenderit. Ut commodo mollit labore dolore incididunt ex magna officia consequat. Mollit aliqua ad pariatur nisi deserunt ea esse ex labore. Reprehenderit eu adipisicing occaecat labore non. Irure velit occaecat non Lorem duis nostrud minim. Dolore sit id esse non sint.\r\n',
+    villanName: 'EXOSTREAM',
+    isActive: true,
+    publicFund: '3,003.31'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce59"),
+    uuid: '64ec26d5fb32ad3b43408051',
+    name: 'Key Waters',
+    villageGoal: 'Et adipisicing cupidatat non culpa aliquip proident sit ex labore reprehenderit proident. Est veniam dolore ut nostrud deserunt aliqua labore sit excepteur pariatur occaecat veniam. Consectetur adipisicing ad cupidatat voluptate pariatur. Officia magna consectetur ex tempor deserunt laboris.\r\n',
+    villanName: 'KYAGURU',
+    isActive: true,
+    publicFund: '2,184.65'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5a"),
+    uuid: '64ec26d59996e1ee7eef89cd',
+    name: 'Kristi Massey',
+    villageGoal: 'Anim irure veniam sunt ea. Reprehenderit dolore do ipsum minim id anim irure minim. Mollit excepteur elit mollit qui aute nisi ad ut cillum elit et deserunt reprehenderit proident. Enim minim dolor Lorem ullamco adipisicing ullamco dolor. Sit esse exercitation ipsum esse consectetur cupidatat.\r\n',
+    villanName: 'ENDIPINE',
+    isActive: false,
+    publicFund: '1,132.05'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5b"),
+    uuid: '64ec26d5bdbecf4bb8a60b13',
+    name: 'Dorthy Austin',
+    villageGoal: 'Adipisicing commodo labore esse laborum magna esse. Do ut elit pariatur dolore. Amet dolore officia irure aliquip excepteur nostrud mollit anim excepteur est culpa reprehenderit. Velit minim anim reprehenderit occaecat id et ex eiusmod duis non amet laboris. Dolore esse officia sunt commodo Lorem aliqua est occaecat.\r\n',
+    villanName: 'SPEEDBOLT',
+    isActive: true,
+    publicFund: '2,398.80'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5c"),
+    uuid: '64ec26d50c0d345c014eb7a0',
+    name: 'Oneil Hinton',
+    villageGoal: 'Id anim occaecat irure sint non exercitation. Qui laborum proident mollit Lorem laborum mollit cupidatat culpa proident nisi cillum ea ea. Minim aute veniam Lorem minim ullamco aute laborum labore cillum sint aliqua enim.\r\n',
+    villanName: 'ENDICIL',
+    isActive: false,
+    publicFund: '3,142.76'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5d"),
+    uuid: '64ec26d55e42f6fdd5eacf24',
+    name: 'Elsie Nixon',
+    villageGoal: 'Quis pariatur Lorem ullamco minim id tempor veniam anim enim dolore dolore. Amet duis sit Lorem ut. Nulla occaecat aliqua dolor ullamco quis eu sit cupidatat adipisicing exercitation tempor. Ex voluptate mollit quis qui sunt qui reprehenderit magna. Amet consequat esse aute nisi nulla occaecat ea aliquip nulla dolore elit labore ut fugiat. Duis minim aute nisi irure est irure fugiat consequat velit ea. Qui pariatur est commodo quis ad consequat nulla non ipsum occaecat et ut duis.\r\n',
+    villanName: 'FLYBOYZ',
+    isActive: false,
+    publicFund: '2,971.60'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5e"),
+    uuid: '64ec26d53e0d6fe974c6f04e',
+    name: 'Lela Cash',
+    villageGoal: 'Culpa incididunt et et exercitation. Id ad officia pariatur mollit esse deserunt ut occaecat in. Mollit do cillum velit sint reprehenderit fugiat exercitation nulla amet dolore cillum reprehenderit aute ad. Occaecat dolor ex velit aute velit aliquip proident in veniam dolor.\r\n',
+    villanName: 'ULTRIMAX',
+    isActive: false,
+    publicFund: '1,482.09'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5f"),
+    uuid: '64ec26d529073ad9b66c0355',
+    name: 'Colette Mcfadden',
+    villageGoal: 'Tempor dolor veniam duis ullamco nisi consectetur fugiat consequat pariatur magna nisi sunt. Sunt voluptate in proident irure dolor aliquip adipisicing incididunt id sit ea velit. Qui ullamco eiusmod irure Lorem sit. Cupidatat sit culpa fugiat sunt culpa sit officia reprehenderit elit. Qui elit velit proident ad occaecat incididunt voluptate sint fugiat labore sunt aliqua do. Deserunt et dolor cupidatat Lorem ex reprehenderit duis est aliquip. Ipsum duis aliquip minim aute laborum voluptate et quis dolore nostrud minim.\r\n',
+    villanName: 'EXOVENT',
+    isActive: true,
+    publicFund: '1,615.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce60"),
+    uuid: '64ec26d558baee394d9eed0a',
+    name: 'Travis Mcfarland',
+    villageGoal: 'Aute nostrud amet est ipsum aliquip pariatur tempor veniam velit proident sunt laborum excepteur. Lorem qui ex ipsum consequat ullamco aliquip dolore occaecat et pariatur. Quis est aliquip duis ipsum aliqua velit velit labore cupidatat minim fugiat. Pariatur ipsum qui magna esse velit et Lorem labore aliqua esse reprehenderit cupidatat. Pariatur exercitation sunt do sunt aute mollit aliqua cillum esse aliqua deserunt aliquip consectetur.\r\n',
+    villanName: 'MAXEMIA',
+    isActive: false,
+    publicFund: '1,873.36'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce61"),
+    uuid: '64ec26d53759ab7f076f60fe',
+    name: 'Fitzpatrick Singleton',
+    villageGoal: 'Aliquip ut aliquip id ad anim aliqua ad. Ut eiusmod incididunt excepteur in sit aute. Veniam eu et aliqua aliquip eiusmod tempor magna qui cillum ullamco quis.\r\n',
+    villanName: 'GREEKER',
+    isActive: true,
+    publicFund: '1,261.17'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce62"),
+    uuid: '64ec26d565f50970e0e71f48',
+    name: 'Melton Hendrix',
+    villageGoal: 'Cupidatat in deserunt et ex ullamco culpa dolor tempor velit id laborum sint. Et adipisicing eiusmod cupidatat anim officia do. Sit anim ea dolor veniam dolor cupidatat eiusmod non dolore et veniam duis irure.\r\n',
+    villanName: 'CUBICIDE',
+    isActive: true,
+    publicFund: '2,805.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce63"),
+    uuid: '64ec26d5d27f8f29a4867532',
+    name: 'Lane Cain',
+    villageGoal: 'Amet fugiat magna pariatur elit proident officia fugiat adipisicing sunt culpa nulla. Proident cupidatat est qui proident elit dolor. Et deserunt tempor adipisicing mollit tempor eu non esse deserunt. Cupidatat est sint fugiat velit ut aliqua ullamco ullamco irure officia aliquip.\r\n',
+    villanName: 'TROPOLI',
+    isActive: true,
+    publicFund: '1,501.33'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce64"),
+    uuid: '64ec26d55349e29fe731e2fa',
+    name: 'Annmarie Burke',
+    villageGoal: 'Ut sint voluptate in commodo pariatur ullamco pariatur reprehenderit veniam sint labore magna aliquip. Aliquip aliquip ea in minim voluptate duis ad. Laborum esse adipisicing laborum officia voluptate fugiat ullamco Lorem Lorem in adipisicing ipsum dolore non. Reprehenderit aliqua sint adipisicing ex id.\r\n',
+    villanName: 'COASH',
+    isActive: true,
+    publicFund: '3,266.13'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce65"),
+    uuid: '64ec26d5c646eef7cd88ce5c',
+    name: 'Harmon Shields',
+    villageGoal: 'Lorem tempor officia ut mollit cillum ipsum anim eiusmod nisi id. Veniam labore velit sint occaecat elit commodo amet excepteur cillum. Voluptate sunt non officia dolore pariatur officia adipisicing cillum ex amet sint enim occaecat voluptate. Elit fugiat do commodo est deserunt cillum labore anim excepteur quis non. Esse ex excepteur aliqua consectetur nisi ut ut. Pariatur fugiat culpa amet ullamco fugiat proident veniam veniam cillum consectetur dolor commodo id.\r\n',
+    villanName: 'MACRONAUT',
+    isActive: false,
+    publicFund: '3,634.38'
+  }
+]
+Type "it" for more
+village> it
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce66"),
+    uuid: '64ec26d5d326d0a3b56ce251',
+    name: 'Marian Avery',
+    villageGoal: 'Aliquip ullamco incididunt irure ad dolore id reprehenderit ex ullamco non. Excepteur id eiusmod nulla ea dolor occaecat est culpa ex minim id sit. Tempor pariatur id id exercitation quis tempor labore.\r\n',
+    villanName: 'COMTRAIL',
+    isActive: true,
+    publicFund: '3,053.30'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce67"),
+    uuid: '64ec26d5aefe5eb7eab14ad9',
+    name: 'Hart Andrews',
+    villageGoal: 'Veniam sit pariatur reprehenderit excepteur laborum occaecat est. Ullamco nostrud Lorem qui nostrud. Est ex elit enim ea eu excepteur irure cupidatat non proident minim. Occaecat aliqua in minim magna nulla dolore id culpa voluptate elit in nostrud Lorem quis. Veniam dolor consequat incididunt et adipisicing nulla sit aliqua. Laboris quis eiusmod eu proident ipsum occaecat do ex excepteur reprehenderit voluptate ullamco laboris mollit.\r\n',
+    villanName: 'ENVIRE',
+    isActive: true,
+    publicFund: '2,667.90'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce68"),
+    uuid: '64ec26d5ee16c7c9d0fc9ecf',
+    name: 'Latasha Solomon',
+    villageGoal: 'Esse sint dolor irure ea eiusmod aliquip laboris laborum laborum dolor nisi culpa aliqua. Ea enim mollit sunt qui. Enim enim qui voluptate irure ad magna est sint. Deserunt sunt quis dolor veniam qui est eiusmod id velit eu deserunt.\r\n',
+    villanName: 'VORTEXACO',
+    isActive: false,
+    publicFund: '3,268.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce69"),
+    uuid: '64ec26d5d4d92f3a68eb8e7d',
+    name: 'Manuela Graham',
+    villageGoal: 'Veniam cillum voluptate ullamco eu officia deserunt quis sit ad nulla. Quis sit aute amet ipsum esse quis cupidatat velit amet adipisicing proident. Velit id reprehenderit pariatur labore.\r\n',
+    villanName: 'DYNO',
+    isActive: true,
+    publicFund: '1,560.39'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6a"),
+    uuid: '64ec26d5722835afdb27b99d',
+    name: 'Tamra Schneider',
+    villageGoal: 'Deserunt pariatur veniam cupidatat veniam mollit. Culpa commodo nulla consequat culpa minim laboris culpa sit adipisicing in pariatur excepteur. Sit magna eu non esse dolor est aliquip Lorem exercitation tempor amet. Ipsum cillum aute dolore anim nisi nostrud reprehenderit duis est consectetur proident ex officia. Excepteur consequat occaecat aliquip irure eiusmod consequat irure exercitation ipsum sunt incididunt labore irure.\r\n',
+    villanName: 'QUANTALIA',
+    isActive: true,
+    publicFund: '3,038.83'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6b"),
+    uuid: '64ec26d5ceb5827b5a2c5062',
+    name: 'Berta Cox',
+    villageGoal: 'Aliqua ut irure non duis. Occaecat sunt id eu aute voluptate est in commodo sit quis proident. Aute eu occaecat mollit incididunt culpa est et labore est Lorem qui mollit ipsum ex. Ad reprehenderit incididunt aute adipisicing ea proident aliqua cupidatat. Consectetur aute excepteur excepteur aliquip dolor mollit ipsum ipsum in nulla est officia. Aliquip occaecat excepteur dolore dolore nisi aute esse occaecat enim duis labore id. Excepteur magna cupidatat do tempor deserunt cillum ad ea laboris eu.\r\n',
+    villanName: 'KRAGGLE',
+    isActive: false,
+    publicFund: '1,140.03'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6c"),
+    uuid: '64ec26d584c98971bf60f652',
+    name: 'Charlene Acevedo',
+    villageGoal: 'Incididunt sint et aliqua aute eu ex ea velit non deserunt. Magna sit officia sunt voluptate occaecat ut ad dolore irure deserunt fugiat. Magna proident id in velit est Lorem do fugiat sunt. Laboris dolor ut sint do ea aute cupidatat sint fugiat anim aliqua sunt deserunt sunt. Ea reprehenderit sint culpa aliqua. Voluptate aliqua sit aliquip eu minim proident sit. Amet quis cillum consequat voluptate.\r\n',
+    villanName: 'SEALOUD',
+    isActive: false,
+    publicFund: '1,510.56'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6d"),
+    uuid: '64ec26d58e8279e476f90fa1',
+    name: 'Diane Buchanan',
+    villageGoal: 'Mollit ex laboris pariatur mollit eu. Culpa mollit consectetur esse laboris magna aliqua quis commodo minim Lorem nulla Lorem esse fugiat. Nostrud minim est eu nostrud ut elit eiusmod officia do in velit veniam exercitation.\r\n',
+    villanName: 'INTERFIND',
+    isActive: false,
+    publicFund: '2,333.93'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6e"),
+    uuid: '64ec26d5a947322414db0f2b',
+    name: 'Gayle Nguyen',
+    villageGoal: 'Nisi eiusmod consequat proident consequat laborum esse pariatur dolor. Pariatur quis do ad amet irure incididunt dolor eiusmod sit. Eiusmod enim ipsum ipsum duis enim sit aute ut in quis. Officia aute id dolor laboris exercitation ex voluptate reprehenderit. Minim magna pariatur minim consequat eu reprehenderit eiusmod laboris esse nisi voluptate et.\r\n',
+    villanName: 'PHEAST',
+    isActive: false,
+    publicFund: '3,675.83'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6f"),
+    uuid: '64ec26d57ecec9b396d64d34',
+    name: 'Martinez Gordon',
+    villageGoal: 'Veniam ea do consequat cupidatat exercitation excepteur incididunt. Minim deserunt et eu eiusmod cupidatat ea ad incididunt aliquip est. Cupidatat laborum in laborum magna velit ut reprehenderit incididunt reprehenderit do. Enim pariatur veniam ut cupidatat commodo consequat occaecat ipsum veniam eiusmod. Occaecat duis in velit Lorem adipisicing magna proident veniam adipisicing incididunt duis. Lorem aliqua ut ad ea id. Nisi ipsum aliquip enim exercitation.\r\n',
+    villanName: 'ZYTREX',
+    isActive: false,
+    publicFund: '2,547.60'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce70"),
+    uuid: '64ec26d5bf1e30f86bc7055a',
+    name: 'Barbra Simmons',
+    villageGoal: 'Commodo reprehenderit excepteur sunt enim est sit dolor ullamco pariatur mollit commodo sint officia et. Et velit exercitation voluptate exercitation nisi eiusmod occaecat laboris sunt sint ex veniam. Anim magna anim laboris velit veniam labore et duis exercitation ex laborum Lorem laboris voluptate. Tempor duis anim culpa laborum ut adipisicing labore proident sunt laboris aute sit.\r\n',
+    villanName: 'ZILLIDIUM',
+    isActive: false,
+    publicFund: '3,805.57'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce71"),
+    uuid: '64ec26d5e9dd3f5aae19de66',
+    name: 'Horne Haley',
+    villageGoal: 'Nulla anim culpa voluptate magna ullamco ea duis duis magna ullamco. Laborum minim irure culpa ut labore nostrud excepteur reprehenderit irure laboris duis eiusmod. Duis sint qui voluptate deserunt dolor et et ea labore velit irure. Fugiat non ut ut ad cillum officia aliquip laborum ut nisi qui in ex. Ut magna amet reprehenderit reprehenderit ipsum cillum occaecat incididunt culpa. Qui dolore adipisicing sunt anim do ad aute.\r\n',
+    villanName: 'FISHLAND',
+    isActive: true,
+    publicFund: '2,107.37'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce72"),
+    uuid: '64ec26d568037134050fbbcd',
+    name: 'Andrea Duran',
+    villageGoal: 'Excepteur pariatur laboris cupidatat ullamco voluptate consectetur fugiat culpa in commodo nisi sint. Consectetur non excepteur laboris in est occaecat voluptate minim eu. Quis tempor incididunt reprehenderit dolore velit nisi ut cillum aliquip minim officia ipsum dolor mollit.\r\n',
+    villanName: 'ZAPHIRE',
+    isActive: false,
+    publicFund: '2,113.05'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce73"),
+    uuid: '64ec26d5520eb809999cc983',
+    name: 'Paul Sweeney',
+    villageGoal: 'Irure est pariatur quis nisi cillum laboris labore ipsum officia commodo amet. Cillum adipisicing commodo ea commodo ad laboris id laboris reprehenderit ex pariatur aute exercitation. Nisi non aliquip adipisicing fugiat incididunt sint consectetur commodo nisi duis anim velit. Laborum labore proident magna ea. Cupidatat magna dolor esse reprehenderit sit non consequat exercitation anim nulla mollit officia. Mollit velit nostrud tempor dolor magna eu ea anim ipsum.\r\n',
+    villanName: 'UNEEQ',
+    isActive: false,
+    publicFund: '3,252.18'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce74"),
+    uuid: '64ec26d5152960842fe8ed30',
+    name: 'Ernestine Miller',
+    villageGoal: 'Non quis ipsum sint irure fugiat id esse magna eiusmod laboris pariatur anim enim sunt. Eu minim sint reprehenderit anim nostrud duis fugiat aute tempor ut voluptate. Minim minim ullamco non ex est.\r\n',
+    villanName: 'IMAGINART',
+    isActive: true,
+    publicFund: '3,629.56'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce75"),
+    uuid: '64ec26d542ec2b79015c4bd7',
+    name: 'Tameka Chase',
+    villageGoal: 'Velit cillum do dolore consequat nisi est laborum laborum nulla in amet id. Exercitation quis officia aute pariatur deserunt nulla minim dolor quis excepteur id adipisicing. Excepteur reprehenderit consectetur excepteur nostrud laborum ea esse aute consectetur ea. Dolore elit eu id commodo Lorem Lorem labore nulla irure qui. In ut ad qui elit consequat do qui amet fugiat.\r\n',
+    villanName: 'CONFRENZY',
+    isActive: true,
+    publicFund: '3,376.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce76"),
+    uuid: '64ec26d5984b2b3548a07d2b',
+    name: 'Karyn Hardy',
+    villageGoal: 'Pariatur cillum voluptate et qui velit pariatur ipsum sunt dolore qui. Sint voluptate esse quis est anim exercitation irure est adipisicing laboris occaecat Lorem dolor. Cupidatat laborum exercitation magna eiusmod ex pariatur magna nisi. Ut mollit deserunt sunt minim ipsum dolore pariatur. Anim aliqua sint ex voluptate nostrud ex culpa laborum aliquip tempor pariatur laborum.\r\n',
+    villanName: 'CYTREX',
+    isActive: true,
+    publicFund: '2,686.05'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce77"),
+    uuid: '64ec26d5d65b361be6f04e9f',
+    name: 'Isabelle Gilmore',
+    villageGoal: 'Dolor id pariatur eu dolore duis. Dolor nostrud reprehenderit aliquip velit do aliquip ex nostrud velit. Fugiat sit amet ex minim cillum quis ad aliqua. In reprehenderit est eiusmod consectetur proident amet ullamco quis. Tempor exercitation velit duis consectetur ad. Anim eu ipsum consequat in et. Deserunt consequat incididunt exercitation culpa commodo cupidatat duis.\r\n',
+    villanName: 'OPTICON',
+    isActive: false,
+    publicFund: '2,269.65'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce78"),
+    uuid: '64ec26d5177a6534b715651e',
+    name: 'Cecilia Alvarez',
+    villageGoal: 'Quis eiusmod minim id reprehenderit qui dolor labore. Veniam aliqua excepteur ut deserunt irure qui id. Ullamco consequat anim commodo ex nostrud labore do Lorem sit proident exercitation Lorem occaecat nostrud. Dolore eiusmod culpa nostrud sint et duis ullamco non consequat Lorem irure.\r\n',
+    villanName: 'CINCYR',
+    isActive: true,
+    publicFund: '1,839.09'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce79"),
+    uuid: '64ec26d59c9c7122cbfdd2f0',
+    name: 'Knowles Price',
+    villageGoal: 'Ut anim excepteur ipsum do et do ea do. Mollit non cupidatat sit id et. Est et fugiat fugiat Lorem.\r\n',
+    villanName: 'ZILLACOM',
+    isActive: false,
+    publicFund: '2,276.50'
+  }
+]
+Type "it" for more
+village> db.village.find({ active: true }).count()
+0
+village> db.village.find({ publicFund: { $gt: 1000 } })
+
+village> db.village.find({ name: { $regex: /(La|ha)/, $options: 'i' } })
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce52"),
+    uuid: '64ec26d5d1786fdde57b650a',
+    name: 'Haley Weaver',
+    villageGoal: 'Non eu qui ut pariatur ullamco cillum labore irure. Ut qui proident ut quis exercitation occaecat ad sunt anim. Eiusmod excepteur fugiat deserunt elit consectetur qui ad do.\r\n',
+    villanName: 'COMCUR',
+    isActive: true,
+    publicFund: '2,121.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce53"),
+    uuid: '64ec26d53839f406fb761cff',
+    name: 'Tracie Lambert',
+    villageGoal: 'Exercitation ex commodo sunt qui non nisi incididunt esse quis minim. Sunt mollit esse dolore adipisicing Lorem. Deserunt voluptate consequat laboris adipisicing est exercitation velit deserunt quis. Ut eiusmod reprehenderit ex deserunt commodo eiusmod consectetur esse nostrud.\r\n',
+    villanName: 'TALKALOT',
+    isActive: false,
+    publicFund: '3,404.68'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5e"),
+    uuid: '64ec26d53e0d6fe974c6f04e',
+    name: 'Lela Cash',
+    villageGoal: 'Culpa incididunt et et exercitation. Id ad officia pariatur mollit esse deserunt ut occaecat in. Mollit do cillum velit sint reprehenderit fugiat exercitation nulla amet dolore cillum reprehenderit aute ad. Occaecat dolor ex velit aute velit aliquip proident in veniam dolor.\r\n',
+    villanName: 'ULTRIMAX',
+    isActive: false,
+    publicFund: '1,482.09'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce60"),
+    uuid: '64ec26d558baee394d9eed0a',
+    name: 'Travis Mcfarland',
+    villageGoal: 'Aute nostrud amet est ipsum aliquip pariatur tempor veniam velit proident sunt laborum excepteur. Lorem qui ex ipsum consequat ullamco aliquip dolore occaecat et pariatur. Quis est aliquip duis ipsum aliqua velit velit labore cupidatat minim fugiat. Pariatur ipsum qui magna esse velit et Lorem labore aliqua esse reprehenderit cupidatat. Pariatur exercitation sunt do sunt aute mollit aliqua cillum esse aliqua deserunt aliquip consectetur.\r\n',
+    villanName: 'MAXEMIA',
+    isActive: false,
+    publicFund: '1,873.36'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce63"),
+    uuid: '64ec26d5d27f8f29a4867532',
+    name: 'Lane Cain',
+    villageGoal: 'Amet fugiat magna pariatur elit proident officia fugiat adipisicing sunt culpa nulla. Proident cupidatat est qui proident elit dolor. Et deserunt tempor adipisicing mollit tempor eu non esse deserunt. Cupidatat est sint fugiat velit ut aliqua ullamco ullamco irure officia aliquip.\r\n',
+    villanName: 'TROPOLI',
+    isActive: true,
+    publicFund: '1,501.33'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce65"),
+    uuid: '64ec26d5c646eef7cd88ce5c',
+    name: 'Harmon Shields',
+    villageGoal: 'Lorem tempor officia ut mollit cillum ipsum anim eiusmod nisi id. Veniam labore velit sint occaecat elit commodo amet excepteur cillum. Voluptate sunt non officia dolore pariatur officia adipisicing cillum ex amet sint enim occaecat voluptate. Elit fugiat do commodo est deserunt cillum labore anim excepteur quis non. Esse ex excepteur aliqua consectetur nisi ut ut. Pariatur fugiat culpa amet ullamco fugiat proident veniam veniam cillum consectetur dolor commodo id.\r\n',
+    villanName: 'MACRONAUT',
+    isActive: false,
+    publicFund: '3,634.38'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce67"),
+    uuid: '64ec26d5aefe5eb7eab14ad9',
+    name: 'Hart Andrews',
+    villageGoal: 'Veniam sit pariatur reprehenderit excepteur laborum occaecat est. Ullamco nostrud Lorem qui nostrud. Est ex elit enim ea eu excepteur irure cupidatat non proident minim. Occaecat aliqua in minim magna nulla dolore id culpa voluptate elit in nostrud Lorem quis. Veniam dolor consequat incididunt et adipisicing nulla sit aliqua. Laboris quis eiusmod eu proident ipsum occaecat do ex excepteur reprehenderit voluptate ullamco laboris mollit.\r\n',
+    villanName: 'ENVIRE',
+    isActive: true,
+    publicFund: '2,667.90'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce68"),
+    uuid: '64ec26d5ee16c7c9d0fc9ecf',
+    name: 'Latasha Solomon',
+    villageGoal: 'Esse sint dolor irure ea eiusmod aliquip laboris laborum laborum dolor nisi culpa aliqua. Ea enim mollit sunt qui. Enim enim qui voluptate irure ad magna est sint. Deserunt sunt quis dolor veniam qui est eiusmod id velit eu deserunt.\r\n',
+    villanName: 'VORTEXACO',
+    isActive: false,
+    publicFund: '3,268.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce69"),
+    uuid: '64ec26d5d4d92f3a68eb8e7d',
+    name: 'Manuela Graham',
+    villageGoal: 'Veniam cillum voluptate ullamco eu officia deserunt quis sit ad nulla. Quis sit aute amet ipsum esse quis cupidatat velit amet adipisicing proident. Velit id reprehenderit pariatur labore.\r\n',
+    villanName: 'DYNO',
+    isActive: true,
+    publicFund: '1,560.39'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6c"),
+    uuid: '64ec26d584c98971bf60f652',
+    name: 'Charlene Acevedo',
+    villageGoal: 'Incididunt sint et aliqua aute eu ex ea velit non deserunt. Magna sit officia sunt voluptate occaecat ut ad dolore irure deserunt fugiat. Magna proident id in velit est Lorem do fugiat sunt. Laboris dolor ut sint do ea aute cupidatat sint fugiat anim aliqua sunt deserunt sunt. Ea reprehenderit sint culpa aliqua. Voluptate aliqua sit aliquip eu minim proident sit. Amet quis cillum consequat voluptate.\r\n',
+    villanName: 'SEALOUD',
+    isActive: false,
+    publicFund: '1,510.56'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6d"),
+    uuid: '64ec26d58e8279e476f90fa1',
+    name: 'Diane Buchanan',
+    villageGoal: 'Mollit ex laboris pariatur mollit eu. Culpa mollit consectetur esse laboris magna aliqua quis commodo minim Lorem nulla Lorem esse fugiat. Nostrud minim est eu nostrud ut elit eiusmod officia do in velit veniam exercitation.\r\n',
+    villanName: 'INTERFIND',
+    isActive: false,
+    publicFund: '2,333.93'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce71"),
+    uuid: '64ec26d5e9dd3f5aae19de66',
+    name: 'Horne Haley',
+    villageGoal: 'Nulla anim culpa voluptate magna ullamco ea duis duis magna ullamco. Laborum minim irure culpa ut labore nostrud excepteur reprehenderit irure laboris duis eiusmod. Duis sint qui voluptate deserunt dolor et et ea labore velit irure. Fugiat non ut ut ad cillum officia aliquip laborum ut nisi qui in ex. Ut magna amet reprehenderit reprehenderit ipsum cillum occaecat incididunt culpa. Qui dolore adipisicing sunt anim do ad aute.\r\n',
+    villanName: 'FISHLAND',
+    isActive: true,
+    publicFund: '2,107.37'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce75"),
+    uuid: '64ec26d542ec2b79015c4bd7',
+    name: 'Tameka Chase',
+    villageGoal: 'Velit cillum do dolore consequat nisi est laborum laborum nulla in amet id. Exercitation quis officia aute pariatur deserunt nulla minim dolor quis excepteur id adipisicing. Excepteur reprehenderit consectetur excepteur nostrud laborum ea esse aute consectetur ea. Dolore elit eu id commodo Lorem Lorem labore nulla irure qui. In ut ad qui elit consequat do qui amet fugiat.\r\n',
+    villanName: 'CONFRENZY',
+    isActive: true,
+    publicFund: '3,376.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce76"),
+    uuid: '64ec26d5984b2b3548a07d2b',
+    name: 'Karyn Hardy',
+    villageGoal: 'Pariatur cillum voluptate et qui velit pariatur ipsum sunt dolore qui. Sint voluptate esse quis est anim exercitation irure est adipisicing laboris occaecat Lorem dolor. Cupidatat laborum exercitation magna eiusmod ex pariatur magna nisi. Ut mollit deserunt sunt minim ipsum dolore pariatur. Anim aliqua sint ex voluptate nostrud ex culpa laborum aliquip tempor pariatur laborum.\r\n',
+    villanName: 'CYTREX',
+    isActive: true,
+    publicFund: '2,686.05'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce85"),
+    uuid: '64ec26d55f2bcd6ca710e5ba',
+    name: 'Corrine Hatfield',
+    villageGoal: 'Commodo anim non exercitation dolor et qui cupidatat enim ipsum. Deserunt nulla officia laboris amet. Culpa et Lorem ipsum sint velit ullamco aute id id culpa.\r\n',
+    villanName: 'MARQET',
+    isActive: false,
+    publicFund: '2,908.07'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce89"),
+    uuid: '64ec26d5efe1504780b82c65',
+    name: 'White Hale',
+    villageGoal: 'Officia aliquip ipsum veniam do. Qui anim dolor cupidatat velit nulla et occaecat. Pariatur enim non ipsum et. Laboris velit quis reprehenderit reprehenderit sint occaecat qui cillum aute quis. Amet magna Lorem anim aliquip anim voluptate amet ipsum voluptate id est. Sunt eu sit eu id in minim elit ut culpa voluptate.\r\n',
+    villanName: 'GEOFORMA',
+    isActive: true,
+    publicFund: '3,203.01'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce8f"),
+    uuid: '64ec26d5af403ae875b406e7',
+    name: 'Myrtle Salas',
+    villageGoal: 'Irure nostrud occaecat exercitation incididunt cillum incididunt enim nisi. In incididunt laborum cillum excepteur consectetur exercitation in sunt cillum fugiat. Qui consequat ullamco nostrud labore aliquip occaecat consequat nulla occaecat amet aliquip. Sit cupidatat id enim adipisicing magna veniam occaecat excepteur eiusmod fugiat anim tempor.\r\n',
+    villanName: 'MAZUDA',
+    isActive: true,
+    publicFund: '2,539.11'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce97"),
+    uuid: '64ec26d5c5e368e4b22eb0ab',
+    name: 'Frances Harding',
+    villageGoal: 'Sint eiusmod reprehenderit reprehenderit cupidatat reprehenderit elit ipsum mollit elit consequat ea elit amet. Sint voluptate dolor deserunt eu sint qui enim est dolor voluptate exercitation. Et sint laborum esse non aliqua. Non proident irure occaecat est.\r\n',
+    villanName: 'COMSTAR',
+    isActive: false,
+    publicFund: '1,778.23'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce9d"),
+    uuid: '64ec26d5a350d2e1b7b820d5',
+    name: 'Hallie Shepard',
+    villageGoal: 'Fugiat in laborum qui ea nisi ut duis commodo aliquip reprehenderit irure deserunt dolore. Minim dolore ex enim ut eu adipisicing aliqua et in fugiat nulla exercitation cillum consequat. Consequat mollit exercitation aliquip sint officia minim. Labore excepteur duis officia reprehenderit nostrud aliqua.\r\n',
+    villanName: 'ISOLOGICA',
+    isActive: true,
+    publicFund: '1,618.82'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce9e"),
+    uuid: '64ec26d593cb934e7c9cd619',
+    name: 'Eileen Douglas',
+    villageGoal: 'Deserunt enim est dolor commodo et. Elit excepteur ea anim ut enim ut sint velit ad laborum amet nostrud. Incididunt cupidatat occaecat ad quis. Cillum irure laborum nostrud id sunt ipsum adipisicing id esse non. Dolore occaecat eu tempor occaecat cillum nostrud aliqua esse irure tempor ea magna aliqua.\r\n',
+    villanName: 'TSUNAMIA',
+    isActive: true,
+    publicFund: '2,409.63'
+  }
+]
+Type "it" for more
+village> db.village.find({ name: { $regex: /^(La|ha)/, $options: 'i' } })
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce52"),
+    uuid: '64ec26d5d1786fdde57b650a',
+    name: 'Haley Weaver',
+    villageGoal: 'Non eu qui ut pariatur ullamco cillum labore irure. Ut qui proident ut quis exercitation occaecat ad sunt anim. Eiusmod excepteur fugiat deserunt elit consectetur qui ad do.\r\n',
+    villanName: 'COMCUR',
+    isActive: true,
+    publicFund: '2,121.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce63"),
+    uuid: '64ec26d5d27f8f29a4867532',
+    name: 'Lane Cain',
+    villageGoal: 'Amet fugiat magna pariatur elit proident officia fugiat adipisicing sunt culpa nulla. Proident cupidatat est qui proident elit dolor. Et deserunt tempor adipisicing mollit tempor eu non esse deserunt. Cupidatat est sint fugiat velit ut aliqua ullamco ullamco irure officia aliquip.\r\n',
+    villanName: 'TROPOLI',
+    isActive: true,
+    publicFund: '1,501.33'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce65"),
+    uuid: '64ec26d5c646eef7cd88ce5c',
+    name: 'Harmon Shields',
+    villageGoal: 'Lorem tempor officia ut mollit cillum ipsum anim eiusmod nisi id. Veniam labore velit sint occaecat elit commodo amet excepteur cillum. Voluptate sunt non officia dolore pariatur officia adipisicing cillum ex amet sint enim occaecat voluptate. Elit fugiat do commodo est deserunt cillum labore anim excepteur quis non. Esse ex excepteur aliqua consectetur nisi ut ut. Pariatur fugiat culpa amet ullamco fugiat proident veniam veniam cillum consectetur dolor commodo id.\r\n',
+    villanName: 'MACRONAUT',
+    isActive: false,
+    publicFund: '3,634.38'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce67"),
+    uuid: '64ec26d5aefe5eb7eab14ad9',
+    name: 'Hart Andrews',
+    villageGoal: 'Veniam sit pariatur reprehenderit excepteur laborum occaecat est. Ullamco nostrud Lorem qui nostrud. Est ex elit enim ea eu excepteur irure cupidatat non proident minim. Occaecat aliqua in minim magna nulla dolore id culpa voluptate elit in nostrud Lorem quis. Veniam dolor consequat incididunt et adipisicing nulla sit aliqua. Laboris quis eiusmod eu proident ipsum occaecat do ex excepteur reprehenderit voluptate ullamco laboris mollit.\r\n',
+    villanName: 'ENVIRE',
+    isActive: true,
+    publicFund: '2,667.90'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce68"),
+    uuid: '64ec26d5ee16c7c9d0fc9ecf',
+    name: 'Latasha Solomon',
+    villageGoal: 'Esse sint dolor irure ea eiusmod aliquip laboris laborum laborum dolor nisi culpa aliqua. Ea enim mollit sunt qui. Enim enim qui voluptate irure ad magna est sint. Deserunt sunt quis dolor veniam qui est eiusmod id velit eu deserunt.\r\n',
+    villanName: 'VORTEXACO',
+    isActive: false,
+    publicFund: '3,268.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce9d"),
+    uuid: '64ec26d5a350d2e1b7b820d5',
+    name: 'Hallie Shepard',
+    villageGoal: 'Fugiat in laborum qui ea nisi ut duis commodo aliquip reprehenderit irure deserunt dolore. Minim dolore ex enim ut eu adipisicing aliqua et in fugiat nulla exercitation cillum consequat. Consequat mollit exercitation aliquip sint officia minim. Labore excepteur duis officia reprehenderit nostrud aliqua.\r\n',
+    villanName: 'ISOLOGICA',
+    isActive: true,
+    publicFund: '1,618.82'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cea3"),
+    uuid: '64ec26d54a46bf0b8d8a1482',
+    name: 'Hamilton Bonner',
+    villageGoal: 'Ut elit adipisicing incididunt aliqua dolor quis commodo minim. Dolore tempor sunt velit nostrud voluptate voluptate velit sint. Excepteur non aliquip eiusmod anim sit cillum aute quis enim aliquip cupidatat consequat duis. Reprehenderit et enim dolor et commodo labore dolore tempor pariatur velit ullamco. Laboris minim pariatur id commodo. Fugiat nulla magna tempor quis minim incididunt aliqua nulla dolore laboris anim dolore excepteur. Cupidatat dolore ullamco amet eu deserunt deserunt mollit proident qui exercitation est ullamco incididunt.\r\n',
+    villanName: 'ELEMANTRA',
+    isActive: true,
+    publicFund: '1,420.15'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cea5"),
+    uuid: '64ec26d51ec8d0b2fcd20534',
+    name: 'Harris Hayes',
+    villageGoal: 'Ullamco sit quis dolor non sunt nisi exercitation sint eiusmod. Ad do labore qui consequat voluptate aliquip sint qui consectetur dolor. Sit ea ullamco pariatur qui adipisicing est elit aliqua eu id. Exercitation consequat tempor officia aliqua magna cupidatat ut adipisicing laboris deserunt.\r\n',
+    villanName: 'GINKLE',
+    isActive: false,
+    publicFund: '1,848.63'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cec8"),
+    uuid: '64ec26d5071341201c805abc',
+    name: 'Hardin Carter',
+    villageGoal: 'Pariatur ut aliqua est laboris amet sunt fugiat proident proident. Elit culpa et et reprehenderit in anim laborum sit ut ea voluptate Lorem aliqua. Est amet tempor anim adipisicing mollit cillum. Lorem incididunt ad ad tempor non occaecat pariatur aliqua aute non id elit ut. Esse fugiat officia proident Lorem dolor do occaecat aute laborum proident culpa esse adipisicing aliqua. Est sunt elit cupidatat excepteur mollit nisi culpa aliqua fugiat consectetur eiusmod.\r\n',
+    villanName: 'CORECOM',
+    isActive: true,
+    publicFund: '1,879.32'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ced0"),
+    uuid: '64ec26d591b01b5d9c8503a0',
+    name: 'Latonya Battle',
+    villageGoal: 'Eiusmod adipisicing ex irure proident veniam anim consectetur ex. Ad reprehenderit labore veniam ullamco aute minim. Esse reprehenderit anim laboris sint.\r\n',
+    villanName: 'ANARCO',
+    isActive: true,
+    publicFund: '2,312.47'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ceee"),
+    uuid: '64ec26d5302446ecd5e6fb97',
+    name: 'Laurel Frederick',
+    villageGoal: 'Amet eiusmod pariatur aute quis cillum proident consectetur aliqua officia aute esse commodo consequat. Tempor sit deserunt qui eu ut qui cillum aliquip reprehenderit commodo. Eiusmod id cupidatat adipisicing occaecat ut elit consectetur nulla ullamco adipisicing officia reprehenderit amet enim.\r\n',
+    villanName: 'RUBADUB',
+    isActive: true,
+    publicFund: '2,616.90'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf2f"),
+    uuid: '64ec26d561ee3149a2677562',
+    name: 'Lauri Workman',
+    villageGoal: 'Eiusmod reprehenderit velit qui laborum reprehenderit Lorem cupidatat consequat consectetur dolore. Ex elit cillum anim excepteur id et consequat nostrud. Consequat sit proident do Lorem. Nulla dolore deserunt magna et ex. Eiusmod pariatur deserunt sit enim eu consequat sint enim eiusmod. Elit proident aliqua cillum commodo incididunt. Dolore duis pariatur do Lorem consectetur in in labore amet id laborum magna.\r\n',
+    villanName: 'SCENTY',
+    isActive: false,
+    publicFund: '1,534.41'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf40"),
+    uuid: '64ec26d5d1099a4de9eca1c3',
+    name: 'Lakisha Talley',
+    villageGoal: 'Officia reprehenderit cillum cillum ex id quis ad reprehenderit sunt veniam. Esse ex do ullamco dolore anim nisi pariatur ullamco cupidatat ea non. Eu aute laborum incididunt sit irure occaecat ullamco pariatur laboris mollit. Aliqua duis exercitation laboris nostrud ex aute culpa magna ipsum adipisicing aliqua. Velit quis cupidatat consequat proident quis eu ex sit exercitation proident in enim ex. Anim elit tempor aliqua sit proident eiusmod voluptate.\r\n',
+    villanName: 'UNISURE',
+    isActive: true,
+    publicFund: '1,944.03'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf84"),
+    uuid: '64ec26d5af5583482e4572cf',
+    name: 'Latisha Reid',
+    villageGoal: 'Officia esse deserunt nulla ut anim id mollit reprehenderit quis enim nulla. Nulla officia tempor anim consectetur aute culpa do magna officia magna officia dolor incididunt. Nisi nulla laborum sit non quis duis deserunt nostrud pariatur aliqua mollit. Reprehenderit ad irure incididunt nostrud sit do eu magna eu ex sunt mollit sunt irure. Sit in reprehenderit adipisicing consectetur veniam voluptate mollit cillum deserunt sint pariatur eu. Culpa ut nulla occaecat incididunt.\r\n',
+    villanName: 'KAGE',
+    isActive: true,
+    publicFund: '1,973.89'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf90"),
+    uuid: '64ec26d5412eb3cf0656e21a',
+    name: 'Lancaster Hoover',
+    villageGoal: 'Aute eu ad consequat commodo qui duis excepteur est et cillum ipsum et. Aute veniam sit labore voluptate nisi labore ad consectetur incididunt eiusmod aliquip est. In et elit id irure exercitation sunt proident duis id quis enim fugiat. Eu qui proident et sint nulla nisi. Aliqua anim tempor culpa anim exercitation labore et aliquip reprehenderit pariatur. Do deserunt fugiat do elit labore veniam minim aute duis nulla est. Cupidatat commodo in ut est consequat ad non in dolor.\r\n',
+    villanName: 'MAINELAND',
+    isActive: true,
+    publicFund: '3,378.69'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cfa5"),
+    uuid: '64ec26d5680363ee5392f8af',
+    name: 'Lara Daniel',
+    villageGoal: 'Non id commodo Lorem magna. Labore ex commodo amet adipisicing reprehenderit aliqua aliqua. Laborum Lorem sint voluptate eiusmod aliqua Lorem eiusmod consequat irure dolor culpa occaecat anim. Labore occaecat velit nisi amet ex enim enim. Velit fugiat qui ad culpa.\r\n',
+    villanName: 'REMOTION',
+    isActive: true,
+    publicFund: '3,371.05'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cfb5"),
+    uuid: '64ec26d5505518d03601ebc0',
+    name: 'Laura Strong',
+    villageGoal: 'Exercitation minim quis eu amet consectetur laboris magna ex dolore laborum proident. Cillum cillum velit dolore sunt consectetur excepteur duis Lorem anim exercitation non sint. Id aliquip minim laborum minim pariatur. Sunt irure ex exercitation Lorem. Qui velit fugiat anim cillum deserunt aute deserunt pariatur ad. Est fugiat do dolor non pariatur ex magna aliqua nulla nisi consectetur culpa.\r\n',
+    villanName: 'MEDESIGN',
+    isActive: false,
+    publicFund: '1,434.21'
+  }
+]
+village> db.village.find({ name: { $regex: /La.*ha|ha.*La/, $options: 'i' } })
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce68"),
+    uuid: '64ec26d5ee16c7c9d0fc9ecf',
+    name: 'Latasha Solomon',
+    villageGoal: 'Esse sint dolor irure ea eiusmod aliquip laboris laborum laborum dolor nisi culpa aliqua. Ea enim mollit sunt qui. Enim enim qui voluptate irure ad magna est sint. Deserunt sunt quis dolor veniam qui est eiusmod id velit eu deserunt.\r\n',
+    villanName: 'VORTEXACO',
+    isActive: false,
+    publicFund: '3,268.87'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce69"),
+    uuid: '64ec26d5d4d92f3a68eb8e7d',
+    name: 'Manuela Graham',
+    villageGoal: 'Veniam cillum voluptate ullamco eu officia deserunt quis sit ad nulla. Quis sit aute amet ipsum esse quis cupidatat velit amet adipisicing proident. Velit id reprehenderit pariatur labore.\r\n',
+    villanName: 'DYNO',
+    isActive: true,
+    publicFund: '1,560.39'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cea4"),
+    uuid: '64ec26d5359edc9935d3edb7',
+    name: 'Clara Callahan',
+    villageGoal: 'Ut pariatur adipisicing consectetur veniam aute enim esse. Labore est commodo elit tempor amet cillum eu labore nulla quis anim quis. Irure qui commodo magna commodo qui enim. Sit enim mollit irure duis enim sint. Do sunt est ipsum ex eu proident. Velit et quis deserunt elit velit in incididunt.\r\n',
+    villanName: 'VOIPA',
+    isActive: false,
+    publicFund: '2,366.56'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cec4"),
+    uuid: '64ec26d5777ffcce7c44316b',
+    name: 'Callahan Beach',
+    villageGoal: 'In culpa cillum esse enim consequat. Velit esse non deserunt aliqua excepteur amet ad aliqua adipisicing. Duis laboris occaecat cillum ea pariatur do sit aliqua dolore elit aliqua sunt ullamco. Reprehenderit veniam Lorem occaecat esse cupidatat veniam ad consequat consectetur consectetur non.\r\n',
+    villanName: 'SOLGAN',
+    isActive: false,
+    publicFund: '2,314.25'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf40"),
+    uuid: '64ec26d5d1099a4de9eca1c3',
+    name: 'Lakisha Talley',
+    villageGoal: 'Officia reprehenderit cillum cillum ex id quis ad reprehenderit sunt veniam. Esse ex do ullamco dolore anim nisi pariatur ullamco cupidatat ea non. Eu aute laborum incididunt sit irure occaecat ullamco pariatur laboris mollit. Aliqua duis exercitation laboris nostrud ex aute culpa magna ipsum adipisicing aliqua. Velit quis cupidatat consequat proident quis eu ex sit exercitation proident in enim ex. Anim elit tempor aliqua sit proident eiusmod voluptate.\r\n',
+    villanName: 'UNISURE',
+    isActive: true,
+    publicFund: '1,944.03'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf4a"),
+    uuid: '64ec26d56d9898e6d59f5f70',
+    name: 'Gladys Harris',
+    villageGoal: 'Elit deserunt enim consequat magna sint est quis ullamco dolor sint ullamco culpa ad. Adipisicing officia dolor ut quis. Ullamco mollit eiusmod id irure veniam cillum minim tempor.\r\n',
+    villanName: 'ACIUM',
+    isActive: false,
+    publicFund: '2,483.82'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf84"),
+    uuid: '64ec26d5af5583482e4572cf',
+    name: 'Latisha Reid',
+    villageGoal: 'Officia esse deserunt nulla ut anim id mollit reprehenderit quis enim nulla. Nulla officia tempor anim consectetur aute culpa do magna officia magna officia dolor incididunt. Nisi nulla laborum sit non quis duis deserunt nostrud pariatur aliqua mollit. Reprehenderit ad irure incididunt nostrud sit do eu magna eu ex sunt mollit sunt irure. Sit in reprehenderit adipisicing consectetur veniam voluptate mollit cillum deserunt sint pariatur eu. Culpa ut nulla occaecat incididunt.\r\n',
+    villanName: 'KAGE',
+    isActive: true,
+    publicFund: '1,973.89'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6cf86"),
+    uuid: '64ec26d5168dab4d57858a01',
+    name: 'Crystal Blanchard',
+    villageGoal: 'Ad eiusmod enim esse adipisicing nostrud incididunt minim id in ullamco. Laborum velit aliquip commodo eiusmod officia do magna eu dolore ex culpa officia enim. Est aliqua id laboris aliquip eu magna nisi irure dolor eiusmod sunt reprehenderit deserunt ea.\r\n',
+    villanName: 'CYTRAK',
+    isActive: true,
+    publicFund: '1,343.04'
+  }
+]
+village> db.village.find({ villageGoal: { $regex: /pariatur/i } })
+[
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce52"),
+    uuid: '64ec26d5d1786fdde57b650a',
+    name: 'Haley Weaver',
+    villageGoal: 'Non eu qui ut pariatur ullamco cillum labore irure. Ut qui proident ut quis exercitation occaecat ad sunt anim. Eiusmod excepteur fugiat deserunt elit consectetur qui ad do.\r\n',
+    villanName: 'COMCUR',
+    isActive: true,
+    publicFund: '2,121.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce54"),
+    uuid: '64ec26d5f1a49083933777fc',
+    name: 'Brooks Mccormick',
+    villageGoal: 'Dolore aliqua pariatur ad cupidatat adipisicing exercitation non esse minim amet. Excepteur deserunt est ex velit sint magna nulla qui nostrud nulla officia. Sint laborum consectetur dolor sint in.\r\n',
+    villanName: 'GINKOGENE',
+    isActive: false,
+    publicFund: '3,490.91'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce55"),
+    uuid: '64ec26d53e2beb3fa5906892',
+    name: 'Guy Johns',
+    villageGoal: 'Sit magna exercitation adipisicing mollit magna quis minim exercitation proident minim labore ea fugiat. Mollit quis ut duis enim anim ex. Magna amet ut reprehenderit adipisicing minim aliqua do ex minim excepteur ipsum. Reprehenderit pariatur tempor dolore occaecat magna excepteur nulla exercitation do. Nostrud aliquip et velit culpa anim cupidatat.\r\n',
+    villanName: 'SCENTRIC',
+    isActive: true,
+    publicFund: '1,306.79'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce58"),
+    uuid: '64ec26d5f23fff804b3d1a23',
+    name: 'Valdez Weber',
+    villageGoal: 'Consequat anim nulla in exercitation minim aute reprehenderit. Ut commodo mollit labore dolore incididunt ex magna officia consequat. Mollit aliqua ad pariatur nisi deserunt ea esse ex labore. Reprehenderit eu adipisicing occaecat labore non. Irure velit occaecat non Lorem duis nostrud minim. Dolore sit id esse non sint.\r\n',
+    villanName: 'EXOSTREAM',
+    isActive: true,
+    publicFund: '3,003.31'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce59"),
+    uuid: '64ec26d5fb32ad3b43408051',
+    name: 'Key Waters',
+    villageGoal: 'Et adipisicing cupidatat non culpa aliquip proident sit ex labore reprehenderit proident. Est veniam dolore ut nostrud deserunt aliqua labore sit excepteur pariatur occaecat veniam. Consectetur adipisicing ad cupidatat voluptate pariatur. Officia magna consectetur ex tempor deserunt laboris.\r\n',
+    villanName: 'KYAGURU',
+    isActive: true,
+    publicFund: '2,184.65'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5b"),
+    uuid: '64ec26d5bdbecf4bb8a60b13',
+    name: 'Dorthy Austin',
+    villageGoal: 'Adipisicing commodo labore esse laborum magna esse. Do ut elit pariatur dolore. Amet dolore officia irure aliquip excepteur nostrud mollit anim excepteur est culpa reprehenderit. Velit minim anim reprehenderit occaecat id et ex eiusmod duis non amet laboris. Dolore esse officia sunt commodo Lorem aliqua est occaecat.\r\n',
+    villanName: 'SPEEDBOLT',
+    isActive: true,
+    publicFund: '2,398.80'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5d"),
+    uuid: '64ec26d55e42f6fdd5eacf24',
+    name: 'Elsie Nixon',
+    villageGoal: 'Quis pariatur Lorem ullamco minim id tempor veniam anim enim dolore dolore. Amet duis sit Lorem ut. Nulla occaecat aliqua dolor ullamco quis eu sit cupidatat adipisicing exercitation tempor. Ex voluptate mollit quis qui sunt qui reprehenderit magna. Amet consequat esse aute nisi nulla occaecat ea aliquip nulla dolore elit labore ut fugiat. Duis minim aute nisi irure est irure fugiat consequat velit ea. Qui pariatur est commodo quis ad consequat nulla non ipsum occaecat et ut duis.\r\n',
+    villanName: 'FLYBOYZ',
+    isActive: false,
+    publicFund: '2,971.60'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5e"),
+    uuid: '64ec26d53e0d6fe974c6f04e',
+    name: 'Lela Cash',
+    villageGoal: 'Culpa incididunt et et exercitation. Id ad officia pariatur mollit esse deserunt ut occaecat in. Mollit do cillum velit sint reprehenderit fugiat exercitation nulla amet dolore cillum reprehenderit aute ad. Occaecat dolor ex velit aute velit aliquip proident in veniam dolor.\r\n',
+    villanName: 'ULTRIMAX',
+    isActive: false,
+    publicFund: '1,482.09'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce5f"),
+    uuid: '64ec26d529073ad9b66c0355',
+    name: 'Colette Mcfadden',
+    villageGoal: 'Tempor dolor veniam duis ullamco nisi consectetur fugiat consequat pariatur magna nisi sunt. Sunt voluptate in proident irure dolor aliquip adipisicing incididunt id sit ea velit. Qui ullamco eiusmod irure Lorem sit. Cupidatat sit culpa fugiat sunt culpa sit officia reprehenderit elit. Qui elit velit proident ad occaecat incididunt voluptate sint fugiat labore sunt aliqua do. Deserunt et dolor cupidatat Lorem ex reprehenderit duis est aliquip. Ipsum duis aliquip minim aute laborum voluptate et quis dolore nostrud minim.\r\n',
+    villanName: 'EXOVENT',
+    isActive: true,
+    publicFund: '1,615.88'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce60"),
+    uuid: '64ec26d558baee394d9eed0a',
+    name: 'Travis Mcfarland',
+    villageGoal: 'Aute nostrud amet est ipsum aliquip pariatur tempor veniam velit proident sunt laborum excepteur. Lorem qui ex ipsum consequat ullamco aliquip dolore occaecat et pariatur. Quis est aliquip duis ipsum aliqua velit velit labore cupidatat minim fugiat. Pariatur ipsum qui magna esse velit et Lorem labore aliqua esse reprehenderit cupidatat. Pariatur exercitation sunt do sunt aute mollit aliqua cillum esse aliqua deserunt aliquip consectetur.\r\n',
+    villanName: 'MAXEMIA',
+    isActive: false,
+    publicFund: '1,873.36'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce63"),
+    uuid: '64ec26d5d27f8f29a4867532',
+    name: 'Lane Cain',
+    villageGoal: 'Amet fugiat magna pariatur elit proident officia fugiat adipisicing sunt culpa nulla. Proident cupidatat est qui proident elit dolor. Et deserunt tempor adipisicing mollit tempor eu non esse deserunt. Cupidatat est sint fugiat velit ut aliqua ullamco ullamco irure officia aliquip.\r\n',
+    villanName: 'TROPOLI',
+    isActive: true,
+    publicFund: '1,501.33'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce64"),
+    uuid: '64ec26d55349e29fe731e2fa',
+    name: 'Annmarie Burke',
+    villageGoal: 'Ut sint voluptate in commodo pariatur ullamco pariatur reprehenderit veniam sint labore magna aliquip. Aliquip aliquip ea in minim voluptate duis ad. Laborum esse adipisicing laborum officia voluptate fugiat ullamco Lorem Lorem in adipisicing ipsum dolore non. Reprehenderit aliqua sint adipisicing ex id.\r\n',
+    villanName: 'COASH',
+    isActive: true,
+    publicFund: '3,266.13'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce65"),
+    uuid: '64ec26d5c646eef7cd88ce5c',
+    name: 'Harmon Shields',
+    villageGoal: 'Lorem tempor officia ut mollit cillum ipsum anim eiusmod nisi id. Veniam labore velit sint occaecat elit commodo amet excepteur cillum. Voluptate sunt non officia dolore pariatur officia adipisicing cillum ex amet sint enim occaecat voluptate. Elit fugiat do commodo est deserunt cillum labore anim excepteur quis non. Esse ex excepteur aliqua consectetur nisi ut ut. Pariatur fugiat culpa amet ullamco fugiat proident veniam veniam cillum consectetur dolor commodo id.\r\n',
+    villanName: 'MACRONAUT',
+    isActive: false,
+    publicFund: '3,634.38'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce66"),
+    uuid: '64ec26d5d326d0a3b56ce251',
+    name: 'Marian Avery',
+    villageGoal: 'Aliquip ullamco incididunt irure ad dolore id reprehenderit ex ullamco non. Excepteur id eiusmod nulla ea dolor occaecat est culpa ex minim id sit. Tempor pariatur id id exercitation quis tempor labore.\r\n',
+    villanName: 'COMTRAIL',
+    isActive: true,
+    publicFund: '3,053.30'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce67"),
+    uuid: '64ec26d5aefe5eb7eab14ad9',
+    name: 'Hart Andrews',
+    villageGoal: 'Veniam sit pariatur reprehenderit excepteur laborum occaecat est. Ullamco nostrud Lorem qui nostrud. Est ex elit enim ea eu excepteur irure cupidatat non proident minim. Occaecat aliqua in minim magna nulla dolore id culpa voluptate elit in nostrud Lorem quis. Veniam dolor consequat incididunt et adipisicing nulla sit aliqua. Laboris quis eiusmod eu proident ipsum occaecat do ex excepteur reprehenderit voluptate ullamco laboris mollit.\r\n',
+    villanName: 'ENVIRE',
+    isActive: true,
+    publicFund: '2,667.90'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce69"),
+    uuid: '64ec26d5d4d92f3a68eb8e7d',
+    name: 'Manuela Graham',
+    villageGoal: 'Veniam cillum voluptate ullamco eu officia deserunt quis sit ad nulla. Quis sit aute amet ipsum esse quis cupidatat velit amet adipisicing proident. Velit id reprehenderit pariatur labore.\r\n',
+    villanName: 'DYNO',
+    isActive: true,
+    publicFund: '1,560.39'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6a"),
+    uuid: '64ec26d5722835afdb27b99d',
+    name: 'Tamra Schneider',
+    villageGoal: 'Deserunt pariatur veniam cupidatat veniam mollit. Culpa commodo nulla consequat culpa minim laboris culpa sit adipisicing in pariatur excepteur. Sit magna eu non esse dolor est aliquip Lorem exercitation tempor amet. Ipsum cillum aute dolore anim nisi nostrud reprehenderit duis est consectetur proident ex officia. Excepteur consequat occaecat aliquip irure eiusmod consequat irure exercitation ipsum sunt incididunt labore irure.\r\n',
+    villanName: 'QUANTALIA',
+    isActive: true,
+    publicFund: '3,038.83'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6d"),
+    uuid: '64ec26d58e8279e476f90fa1',
+    name: 'Diane Buchanan',
+    villageGoal: 'Mollit ex laboris pariatur mollit eu. Culpa mollit consectetur esse laboris magna aliqua quis commodo minim Lorem nulla Lorem esse fugiat. Nostrud minim est eu nostrud ut elit eiusmod officia do in velit veniam exercitation.\r\n',
+    villanName: 'INTERFIND',
+    isActive: false,
+    publicFund: '2,333.93'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6e"),
+    uuid: '64ec26d5a947322414db0f2b',
+    name: 'Gayle Nguyen',
+    villageGoal: 'Nisi eiusmod consequat proident consequat laborum esse pariatur dolor. Pariatur quis do ad amet irure incididunt dolor eiusmod sit. Eiusmod enim ipsum ipsum duis enim sit aute ut in quis. Officia aute id dolor laboris exercitation ex voluptate reprehenderit. Minim magna pariatur minim consequat eu reprehenderit eiusmod laboris esse nisi voluptate et.\r\n',
+    villanName: 'PHEAST',
+    isActive: false,
+    publicFund: '3,675.83'
+  },
+  {
+    _id: ObjectId("64eca4a54d5048f887e6ce6f"),
+    uuid: '64ec26d57ecec9b396d64d34',
+    name: 'Martinez Gordon',
+    villageGoal: 'Veniam ea do consequat cupidatat exercitation excepteur incididunt. Minim deserunt et eu eiusmod cupidatat ea ad incididunt aliquip est. Cupidatat laborum in laborum magna velit ut reprehenderit incididunt reprehenderit do. Enim pariatur veniam ut cupidatat commodo consequat occaecat ipsum veniam eiusmod. Occaecat duis in velit Lorem adipisicing magna proident veniam adipisicing incididunt duis. Lorem aliqua ut ad ea id. Nisi ipsum aliquip enim exercitation.\r\n',
+    villanName: 'ZYTREX',
+    isActive: false,
+    publicFund: '2,547.60'
+  }
+]
+Type "it" for more
+village>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+village>

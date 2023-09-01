@@ -1,0 +1,1939 @@
+Please enter a MongoDB connection string (Default: mongodb://localhost/): mango
+mango
+Current Mongosh Log ID: 64f1ed516540db53c6007a64
+Connecting to:          mongodb://127.0.0.1:27017/mango?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.6
+Using MongoDB:          7.0.0
+Using Mongosh:          1.10.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2023-08-27T20:20:09.264+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+mango> use product_database
+switched to db product_database
+product_database> db.products.find({ listingYear: { $in: [2020, 2022] } })
+
+product_database> db.products.find({ companyEmail: /undefined/ })
+[
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2a"),
+    random: '6',
+    price: '65.333',
+    isReadyForSale: 'true',
+    listedDate: '2022-08-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Demetris',
+    cultivationCity: 'Regina',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'AX',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ida', 'Nikki', 'Nanete', 'Linzy', 'Doro' ],
+    salesDetails: [
+      { itemsSold: '0', price: '53.008', soldDate: '2022-09-02' },
+      { itemsSold: '1', price: '61.885', soldDate: '2022-06-25' },
+      { itemsSold: '2', price: '59.877', soldDate: '2022-11-29' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2b"),
+    random: '65',
+    price: '37.13',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-06',
+    particulars: 'Not For Sale',
+    name: 'Kirbee',
+    cultivationCity: 'Novosibirsk',
+    cultivationCountry: 'Falkland Islands (Malvinas)',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tobe', 'Barbara', 'Deloria', 'Lilith', 'Halette' ],
+    salesDetails: [
+      { itemsSold: '0', price: '37.853', soldDate: '2022-08-20' },
+      { itemsSold: '1', price: '72.682', soldDate: '2022-08-23' },
+      { itemsSold: '2', price: '56.205', soldDate: '2022-05-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2c"),
+    random: '81',
+    price: '86.039',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-19',
+    particulars: 'DairyProduct',
+    name: 'Brana',
+    cultivationCity: 'Yangon',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'JP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Florie', 'Melanie', 'Arlina', 'Adelle', 'Marylou' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.336', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '43.228', soldDate: '2022-05-14' },
+      { itemsSold: '2', price: '78.479', soldDate: '2022-08-31' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2d"),
+    random: '87',
+    price: '24.459',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-22',
+    particulars: 'Artifically Flavoured',
+    name: 'Nannie',
+    cultivationCity: 'Málaga',
+    cultivationCountry: 'Saint Lucia',
+    cultivationCountryCode: 'GH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minda', 'Maridel', 'Dale', 'Basia', 'Shell' ],
+    salesDetails: [
+      { itemsSold: '0', price: '7.698', soldDate: '2022-04-26' },
+      { itemsSold: '1', price: '93.372', soldDate: '2022-03-07' },
+      { itemsSold: '2', price: '15.133', soldDate: '2022-02-03' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2e"),
+    random: '30',
+    price: '47.238',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-28',
+    particulars: 'Not For Sale',
+    name: 'Miquela',
+    cultivationCity: 'İzmir',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'LS',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Caressa', 'Heddie', 'Marjie', 'Phylis', 'Nerta' ],
+    salesDetails: [
+      { itemsSold: '0', price: '29.933', soldDate: '2022-06-30' },
+      { itemsSold: '1', price: '94.819', soldDate: '2022-08-20' },
+      { itemsSold: '2', price: '40.343', soldDate: '2022-11-09' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2f"),
+    random: '39',
+    price: '22.665',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-01',
+    particulars: 'Not For Sale',
+    name: 'Bibby',
+    cultivationCity: 'Tel Aviv',
+    cultivationCountry: 'Chile',
+    cultivationCountryCode: 'FI',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minne', 'Dacia', 'Almeta', 'Nicoli', 'Leanna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.544', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '100.913', soldDate: '2022-03-19' },
+      { itemsSold: '2', price: '25.927', soldDate: '2022-09-10' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e30"),
+    random: '12',
+    price: '83.43',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-08',
+    particulars: 'DairyProduct',
+    name: 'Daryl',
+    cultivationCity: 'Minneapolis',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tersina', 'Marjie', 'Leia', 'Candy', 'Miquela' ],
+    salesDetails: [
+      { itemsSold: '0', price: '55.581', soldDate: '2022-08-04' },
+      { itemsSold: '1', price: '13.612', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '79.643', soldDate: '2023-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e31"),
+    random: '60',
+    price: '37.873',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-29',
+    particulars: 'Artifically Flavoured',
+    name: 'Nanete',
+    cultivationCity: 'Miami',
+    cultivationCountry: 'Bangladesh',
+    cultivationCountryCode: 'OM',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Allis', 'Jillayne', 'Lizzie', 'Nickie', 'Jolyn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '43.276', soldDate: '2022-01-13' },
+      { itemsSold: '1', price: '62.907', soldDate: '2022-12-17' },
+      { itemsSold: '2', price: '79.784', soldDate: '2022-05-12' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e32"),
+    random: '89',
+    price: '90.187',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-23',
+    particulars: 'DairyProduct',
+    name: 'Perry',
+    cultivationCity: 'Stuttgart',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'MH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Jinny', 'Randa', 'Lilith', 'Giustina', 'Kara-Lynn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.213', soldDate: '2022-03-09' },
+      { itemsSold: '1', price: '12.113', soldDate: '2022-01-10' },
+      { itemsSold: '2', price: '6.476', soldDate: '2022-08-04' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e33"),
+    random: '46',
+    price: '70.73',
+    isReadyForSale: 'true',
+    listedDate: '2022-09-08',
+    particulars: 'Artifically Flavoured',
+    name: 'Jeanna',
+    cultivationCity: 'Riga',
+    cultivationCountry: 'Antarctica',
+    cultivationCountryCode: 'DK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Aaren', 'Darci', 'Hermione', 'Feliza', 'Leona' ],
+    salesDetails: [
+      { itemsSold: '0', price: '88.319', soldDate: '2022-12-10' },
+      { itemsSold: '1', price: '31.354', soldDate: '2023-01-04' },
+      { itemsSold: '2', price: '33.156', soldDate: '2022-01-27' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e34"),
+    random: '2',
+    price: '50.826',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-09',
+    particulars: 'Artifically Flavoured',
+    name: 'Candi',
+    cultivationCity: 'Seville',
+    cultivationCountry: 'Heard Island and Mcdonald Islands',
+    cultivationCountryCode: 'VC',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Miquela', 'Elie', 'Anestassia', 'Rubie', 'Cordi' ],
+    salesDetails: [
+      { itemsSold: '0', price: '18.217', soldDate: '2022-11-18' },
+      { itemsSold: '1', price: '93.788', soldDate: '2022-06-16' },
+      { itemsSold: '2', price: '91.071', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e35"),
+    random: '88',
+    price: '93.599',
+    isReadyForSale: 'true',
+    listedDate: '2022-04-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Marika',
+    cultivationCity: 'Nukulaelae',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'TF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Annice', 'Cathyleen', 'Candi', 'Gilligan', 'Kenna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '83.095', soldDate: '2022-07-12' },
+      { itemsSold: '1', price: '87.711', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '98.216', soldDate: '2023-01-11' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e36"),
+    random: '92',
+    price: '40.655',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-28',
+    particulars: 'Artifically Flavoured',
+    name: 'Randa',
+    cultivationCity: 'São Paulo',
+    cultivationCountry: 'Isle of Man',
+    cultivationCountryCode: 'AQ',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Alyda', 'Tierney', 'Caressa', 'Dorothy', 'Cissiee' ],
+    salesDetails: [
+      { itemsSold: '0', price: '12.068', soldDate: '2023-01-11' },
+      { itemsSold: '1', price: '91.069', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '37.823', soldDate: '2022-10-24' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e37"),
+    random: '92',
+    price: '75.428',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-14',
+    particulars: 'DairyProduct',
+    name: 'Roxane',
+    cultivationCity: 'Cebu City',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Correy', 'Kellen', 'Arlena', 'Sabina', 'Elsie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.792', soldDate: '2022-07-08' },
+      { itemsSold: '1', price: '97.719', soldDate: '2022-02-14' },
+      { itemsSold: '2', price: '70.68', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e38"),
+    random: '78',
+    price: '24.883',
+    isReadyForSale: 'true',
+    listedDate: '2022-10-21',
+    particulars: 'DairyProduct',
+    name: 'Kimmy',
+    cultivationCity: 'Cologne',
+    cultivationCountry: 'Guatemala',
+    cultivationCountryCode: 'IN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Nadine', 'Eadie', 'Charlena', 'Leanna', 'Katleen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.13', soldDate: '2022-09-10' },
+      { itemsSold: '1', price: '98.324', soldDate: '2022-05-04' },
+      { itemsSold: '2', price: '62.662', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e39"),
+    random: '78',
+    price: '31.852',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-30',
+    particulars: 'Not For Sale',
+    name: 'Nita',
+    cultivationCity: 'Nukuʻalofa',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'GB',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Catharine', 'Carly', 'Ingrid', 'Di', 'Di' ],
+    salesDetails: [
+      { itemsSold: '0', price: '44.634', soldDate: '2022-04-09' },
+      { itemsSold: '1', price: '34.374', soldDate: '2022-07-06' },
+      { itemsSold: '2', price: '30.953', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3a"),
+    random: '26',
+    price: '35.366',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-25',
+    particulars: 'DairyProduct',
+    name: 'Dominga',
+    cultivationCity: 'Okinawa',
+    cultivationCountry: 'Pakistan',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Calla', 'Petronia', 'Jaclyn', 'Ellette', 'Nariko' ],
+    salesDetails: [
+      { itemsSold: '0', price: '69.804', soldDate: '2022-01-15' },
+      { itemsSold: '1', price: '46.931', soldDate: '2022-09-23' },
+      { itemsSold: '2', price: '30.755', soldDate: '2022-11-30' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3b"),
+    random: '86',
+    price: '28.201',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-04',
+    particulars: 'Artifically Flavoured',
+    name: 'Sonni',
+    cultivationCity: 'Livingstone',
+    cultivationCountry: 'Honduras',
+    cultivationCountryCode: 'AN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Barbi', 'Steffane', 'Chickie', 'Devina', 'Beverley' ],
+    salesDetails: [
+      { itemsSold: '0', price: '39.392', soldDate: '2022-05-22' },
+      { itemsSold: '1', price: '98.752', soldDate: '2022-01-26' },
+      { itemsSold: '2', price: '95.525', soldDate: '2022-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3c"),
+    random: '55',
+    price: '68.556',
+    isReadyForSale: 'true',
+    listedDate: '2022-11-23',
+    particulars: 'Not For Sale',
+    name: 'Elbertina',
+    cultivationCity: 'Tagbilaran',
+    cultivationCountry: 'Aruba',
+    cultivationCountryCode: 'CN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Micheline', 'Marti', 'Jaime', 'Regina', 'Carree' ],
+    salesDetails: [
+      { itemsSold: '0', price: '19.292', soldDate: '2022-07-03' },
+      { itemsSold: '1', price: '20.679', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '22.079', soldDate: '2022-04-25' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3d"),
+    random: '84',
+    price: '30.792',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-08',
+    particulars: 'Not For Sale',
+    name: 'Judy',
+    cultivationCity: 'Canberra',
+    cultivationCountry: 'Equatorial Guinea',
+    cultivationCountryCode: 'WF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Dorene', 'Olivette', 'Hope', 'Barbara', 'Ronna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '51.254', soldDate: '2022-01-02' },
+      { itemsSold: '1', price: '53.855', soldDate: '2022-08-10' },
+      { itemsSold: '2', price: '38.011', soldDate: '2022-05-17' }
+    ]
+  }
+]
+Type "it" for more
+product_database> db.products.find({ particulars: { $regex: /dairy/i } })
+[
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2c"),
+    random: '81',
+    price: '86.039',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-19',
+    particulars: 'DairyProduct',
+    name: 'Brana',
+    cultivationCity: 'Yangon',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'JP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Florie', 'Melanie', 'Arlina', 'Adelle', 'Marylou' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.336', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '43.228', soldDate: '2022-05-14' },
+      { itemsSold: '2', price: '78.479', soldDate: '2022-08-31' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e30"),
+    random: '12',
+    price: '83.43',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-08',
+    particulars: 'DairyProduct',
+    name: 'Daryl',
+    cultivationCity: 'Minneapolis',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tersina', 'Marjie', 'Leia', 'Candy', 'Miquela' ],
+    salesDetails: [
+      { itemsSold: '0', price: '55.581', soldDate: '2022-08-04' },
+      { itemsSold: '1', price: '13.612', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '79.643', soldDate: '2023-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e32"),
+    random: '89',
+    price: '90.187',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-23',
+    particulars: 'DairyProduct',
+    name: 'Perry',
+    cultivationCity: 'Stuttgart',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'MH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Jinny', 'Randa', 'Lilith', 'Giustina', 'Kara-Lynn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.213', soldDate: '2022-03-09' },
+      { itemsSold: '1', price: '12.113', soldDate: '2022-01-10' },
+      { itemsSold: '2', price: '6.476', soldDate: '2022-08-04' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e37"),
+    random: '92',
+    price: '75.428',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-14',
+    particulars: 'DairyProduct',
+    name: 'Roxane',
+    cultivationCity: 'Cebu City',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Correy', 'Kellen', 'Arlena', 'Sabina', 'Elsie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.792', soldDate: '2022-07-08' },
+      { itemsSold: '1', price: '97.719', soldDate: '2022-02-14' },
+      { itemsSold: '2', price: '70.68', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e38"),
+    random: '78',
+    price: '24.883',
+    isReadyForSale: 'true',
+    listedDate: '2022-10-21',
+    particulars: 'DairyProduct',
+    name: 'Kimmy',
+    cultivationCity: 'Cologne',
+    cultivationCountry: 'Guatemala',
+    cultivationCountryCode: 'IN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Nadine', 'Eadie', 'Charlena', 'Leanna', 'Katleen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.13', soldDate: '2022-09-10' },
+      { itemsSold: '1', price: '98.324', soldDate: '2022-05-04' },
+      { itemsSold: '2', price: '62.662', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3a"),
+    random: '26',
+    price: '35.366',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-25',
+    particulars: 'DairyProduct',
+    name: 'Dominga',
+    cultivationCity: 'Okinawa',
+    cultivationCountry: 'Pakistan',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Calla', 'Petronia', 'Jaclyn', 'Ellette', 'Nariko' ],
+    salesDetails: [
+      { itemsSold: '0', price: '69.804', soldDate: '2022-01-15' },
+      { itemsSold: '1', price: '46.931', soldDate: '2022-09-23' },
+      { itemsSold: '2', price: '30.755', soldDate: '2022-11-30' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3e"),
+    random: '83',
+    price: '78.179',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-18',
+    particulars: 'DairyProduct',
+    name: 'Kara-Lynn',
+    cultivationCity: 'Dunedin',
+    cultivationCountry: 'Saint Pierre and Miquelon',
+    cultivationCountryCode: 'SG',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Sharai', 'Wendi', 'Dulce', 'Joleen', 'Gwyneth' ],
+    salesDetails: [
+      { itemsSold: '0', price: '6.492', soldDate: '2022-01-08' },
+      { itemsSold: '1', price: '8.988', soldDate: '2023-01-05' },
+      { itemsSold: '2', price: '10.804', soldDate: '2022-12-03' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3f"),
+    random: '93',
+    price: '91.697',
+    isReadyForSale: 'false',
+    listedDate: '2023-01-08',
+    particulars: 'DairyProduct',
+    name: 'Yolane',
+    cultivationCity: 'Brazzaville',
+    cultivationCountry: 'Uruguay',
+    cultivationCountryCode: 'US',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Lelah', 'Tiffie', 'Celisse', 'Violet', 'Anestassia' ],
+    salesDetails: [
+      { itemsSold: '0', price: '75.137', soldDate: '2022-01-14' },
+      { itemsSold: '1', price: '20.268', soldDate: '2022-11-26' },
+      { itemsSold: '2', price: '23.542', soldDate: '2022-09-13' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e43"),
+    random: '70',
+    price: '8.457',
+    isReadyForSale: 'true',
+    listedDate: '2022-07-24',
+    particulars: 'DairyProduct',
+    name: 'Linet',
+    cultivationCity: 'Tashkent',
+    cultivationCountry: 'Latvia',
+    cultivationCountryCode: 'AX',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Flo', 'Belinda', 'Constance', 'Myriam', 'Lindie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '48.031', soldDate: '2022-07-12' },
+      { itemsSold: '1', price: '80.979', soldDate: '2022-09-05' },
+      { itemsSold: '2', price: '64.455', soldDate: '2022-06-24' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e4a"),
+    random: '44',
+    price: '55.871',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-24',
+    particulars: 'DairyProduct',
+    name: 'Nadine',
+    cultivationCity: 'Chongqing',
+    cultivationCountry: 'Greenland',
+    cultivationCountryCode: 'MM',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ezmeralda', 'Roz', 'Verla', 'Karlee', 'Wileen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '34.102', soldDate: '2023-01-14' },
+      { itemsSold: '1', price: '81.418', soldDate: '2022-08-18' },
+      { itemsSold: '2', price: '98.339', soldDate: '2022-02-26' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e4c"),
+    random: '10',
+    price: '75.191',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-31',
+    particulars: 'DairyProduct',
+    name: 'Tressa',
+    cultivationCity: 'Bulawayo',
+    cultivationCountry: 'Ghana',
+    cultivationCountryCode: 'TW',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Aaren', 'Bobinette', 'Lisette', 'Gabriellia', 'Tierney' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.867', soldDate: '2022-08-07' },
+      { itemsSold: '1', price: '93.664', soldDate: '2022-01-21' },
+      { itemsSold: '2', price: '41.954', soldDate: '2022-05-26' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e4e"),
+    random: '93',
+    price: '40.629',
+    isReadyForSale: 'true',
+    listedDate: '2022-09-12',
+    particulars: 'DairyProduct',
+    name: 'Natka',
+    cultivationCity: 'Bratislava',
+    cultivationCountry: 'Romania',
+    cultivationCountryCode: 'BZ',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Shaine', 'Ursulina', 'Glenda', 'Lauryn', 'Celene' ],
+    salesDetails: [
+      { itemsSold: '0', price: '24.316', soldDate: '2022-02-19' },
+      { itemsSold: '1', price: '84.004', soldDate: '2022-08-11' },
+      { itemsSold: '2', price: '27.316', soldDate: '2022-01-22' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e50"),
+    random: '50',
+    price: '48.741',
+    isReadyForSale: 'false',
+    listedDate: '2022-10-12',
+    particulars: 'DairyProduct',
+    name: 'Wynne',
+    cultivationCity: 'Bandar Seri Begawan',
+    cultivationCountry: 'Belgium',
+    cultivationCountryCode: 'GT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Cissiee', 'Ethel', 'Consuela', 'Gusella', 'Jobi' ],
+    salesDetails: [
+      { itemsSold: '0', price: '51.053', soldDate: '2022-01-09' },
+      { itemsSold: '1', price: '74.48', soldDate: '2022-05-28' },
+      { itemsSold: '2', price: '80.934', soldDate: '2022-10-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e53"),
+    random: '3',
+    price: '73.983',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-29',
+    particulars: 'DairyProduct',
+    name: 'Addia',
+    cultivationCity: 'Batticaloa',
+    cultivationCountry: 'Libyan Arab Jamahiriya',
+    cultivationCountryCode: 'LK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Kial', 'June', 'Dolli', 'Ginnie', 'Jeanna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '40.087', soldDate: '2022-02-16' },
+      { itemsSold: '1', price: '30.387', soldDate: '2022-12-01' },
+      { itemsSold: '2', price: '86.681', soldDate: '2022-05-16' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e57"),
+    random: '18',
+    price: '86.245',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-06',
+    particulars: 'DairyProduct',
+    name: 'Frank',
+    cultivationCity: 'Bergen',
+    cultivationCountry: 'Bosnia and Herzegovina',
+    cultivationCountryCode: 'KP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Candi', 'Lanna', 'Pierette', 'Valera', 'Merry' ],
+    salesDetails: [
+      { itemsSold: '0', price: '79.141', soldDate: '2022-03-29' },
+      { itemsSold: '1', price: '47.353', soldDate: '2022-02-05' },
+      { itemsSold: '2', price: '5.891', soldDate: '2022-02-01' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e59"),
+    random: '32',
+    price: '96.181',
+    isReadyForSale: 'true',
+    listedDate: '2023-01-11',
+    particulars: 'DairyProduct',
+    name: 'Monika',
+    cultivationCity: 'Cape Town',
+    cultivationCountry: 'Turkey',
+    cultivationCountryCode: 'BF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Heddie', 'Annice', 'Alyda', 'Mignon', 'Cristabel' ],
+    salesDetails: [
+      { itemsSold: '0', price: '71.742', soldDate: '2022-04-25' },
+      { itemsSold: '1', price: '17.232', soldDate: '2022-09-27' },
+      { itemsSold: '2', price: '92.903', soldDate: '2022-11-13' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e60"),
+    random: '59',
+    price: '90.24',
+    isReadyForSale: 'true',
+    listedDate: '2022-08-25',
+    particulars: 'DairyProduct',
+    name: 'Elmira',
+    cultivationCity: 'Nanjing',
+    cultivationCountry: 'United Arab Emirates',
+    cultivationCountryCode: 'GG',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ricky', 'Pamella', 'Angela', 'Queenie', 'Anica' ],
+    salesDetails: [
+      { itemsSold: '0', price: '86.18', soldDate: '2022-10-03' },
+      { itemsSold: '1', price: '42.251', soldDate: '2022-09-18' },
+      { itemsSold: '2', price: '84.716', soldDate: '2022-11-01' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e61"),
+    random: '9',
+    price: '69.704',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-14',
+    particulars: 'DairyProduct',
+    name: 'Audrie',
+    cultivationCity: 'Hat Yai',
+    cultivationCountry: 'Syrian Arab Republic',
+    cultivationCountryCode: 'LK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Desirae', 'Kassey', 'Mathilda', 'Perry', 'Pearline' ],
+    salesDetails: [
+      { itemsSold: '0', price: '95.469', soldDate: '2022-07-20' },
+      { itemsSold: '1', price: '7.894', soldDate: '2022-09-05' },
+      { itemsSold: '2', price: '82.219', soldDate: '2022-02-18' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e63"),
+    random: '19',
+    price: '31.525',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-16',
+    particulars: 'DairyProduct',
+    name: 'Arabel',
+    cultivationCity: 'Charlotte Amalie',
+    cultivationCountry: 'Slovakia',
+    cultivationCountryCode: 'VC',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Dale', 'Tabbatha', 'Belva', 'Dari', 'Max' ],
+    salesDetails: [
+      { itemsSold: '0', price: '62.65', soldDate: '2022-05-05' },
+      { itemsSold: '1', price: '67.99', soldDate: '2022-04-12' },
+      { itemsSold: '2', price: '72.55', soldDate: '2022-12-23' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e65"),
+    random: '90',
+    price: '28.49',
+    isReadyForSale: 'false',
+    listedDate: '2022-08-09',
+    particulars: 'DairyProduct',
+    name: 'Celestyna',
+    cultivationCity: 'Manama',
+    cultivationCountry: 'Uruguay',
+    cultivationCountryCode: 'AG',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Vevay', 'Catrina', 'Petronia', 'Joleen', 'Natka' ],
+    salesDetails: [
+      { itemsSold: '0', price: '60.132', soldDate: '2022-02-28' },
+      { itemsSold: '1', price: '59.681', soldDate: '2022-03-01' },
+      { itemsSold: '2', price: '81.748', soldDate: '2022-04-26' }
+    ]
+  }
+]
+Type "it" for more
+product_database> db.products.find({ name: /^./^./ })
+[
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2a"),
+    random: '6',
+    price: '65.333',
+    isReadyForSale: 'true',
+    listedDate: '2022-08-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Demetris',
+    cultivationCity: 'Regina',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'AX',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ida', 'Nikki', 'Nanete', 'Linzy', 'Doro' ],
+    salesDetails: [
+      { itemsSold: '0', price: '53.008', soldDate: '2022-09-02' },
+      { itemsSold: '1', price: '61.885', soldDate: '2022-06-25' },
+      { itemsSold: '2', price: '59.877', soldDate: '2022-11-29' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2b"),
+    random: '65',
+    price: '37.13',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-06',
+    particulars: 'Not For Sale',
+    name: 'Kirbee',
+    cultivationCity: 'Novosibirsk',
+    cultivationCountry: 'Falkland Islands (Malvinas)',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tobe', 'Barbara', 'Deloria', 'Lilith', 'Halette' ],
+    salesDetails: [
+      { itemsSold: '0', price: '37.853', soldDate: '2022-08-20' },
+      { itemsSold: '1', price: '72.682', soldDate: '2022-08-23' },
+      { itemsSold: '2', price: '56.205', soldDate: '2022-05-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2c"),
+    random: '81',
+    price: '86.039',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-19',
+    particulars: 'DairyProduct',
+    name: 'Brana',
+    cultivationCity: 'Yangon',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'JP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Florie', 'Melanie', 'Arlina', 'Adelle', 'Marylou' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.336', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '43.228', soldDate: '2022-05-14' },
+      { itemsSold: '2', price: '78.479', soldDate: '2022-08-31' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2d"),
+    random: '87',
+    price: '24.459',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-22',
+    particulars: 'Artifically Flavoured',
+    name: 'Nannie',
+    cultivationCity: 'Málaga',
+    cultivationCountry: 'Saint Lucia',
+    cultivationCountryCode: 'GH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minda', 'Maridel', 'Dale', 'Basia', 'Shell' ],
+    salesDetails: [
+      { itemsSold: '0', price: '7.698', soldDate: '2022-04-26' },
+      { itemsSold: '1', price: '93.372', soldDate: '2022-03-07' },
+      { itemsSold: '2', price: '15.133', soldDate: '2022-02-03' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2e"),
+    random: '30',
+    price: '47.238',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-28',
+    particulars: 'Not For Sale',
+    name: 'Miquela',
+    cultivationCity: 'İzmir',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'LS',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Caressa', 'Heddie', 'Marjie', 'Phylis', 'Nerta' ],
+    salesDetails: [
+      { itemsSold: '0', price: '29.933', soldDate: '2022-06-30' },
+      { itemsSold: '1', price: '94.819', soldDate: '2022-08-20' },
+      { itemsSold: '2', price: '40.343', soldDate: '2022-11-09' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2f"),
+    random: '39',
+    price: '22.665',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-01',
+    particulars: 'Not For Sale',
+    name: 'Bibby',
+    cultivationCity: 'Tel Aviv',
+    cultivationCountry: 'Chile',
+    cultivationCountryCode: 'FI',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minne', 'Dacia', 'Almeta', 'Nicoli', 'Leanna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.544', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '100.913', soldDate: '2022-03-19' },
+      { itemsSold: '2', price: '25.927', soldDate: '2022-09-10' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e30"),
+    random: '12',
+    price: '83.43',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-08',
+    particulars: 'DairyProduct',
+    name: 'Daryl',
+    cultivationCity: 'Minneapolis',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tersina', 'Marjie', 'Leia', 'Candy', 'Miquela' ],
+    salesDetails: [
+      { itemsSold: '0', price: '55.581', soldDate: '2022-08-04' },
+      { itemsSold: '1', price: '13.612', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '79.643', soldDate: '2023-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e31"),
+    random: '60',
+    price: '37.873',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-29',
+    particulars: 'Artifically Flavoured',
+    name: 'Nanete',
+    cultivationCity: 'Miami',
+    cultivationCountry: 'Bangladesh',
+    cultivationCountryCode: 'OM',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Allis', 'Jillayne', 'Lizzie', 'Nickie', 'Jolyn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '43.276', soldDate: '2022-01-13' },
+      { itemsSold: '1', price: '62.907', soldDate: '2022-12-17' },
+      { itemsSold: '2', price: '79.784', soldDate: '2022-05-12' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e32"),
+    random: '89',
+    price: '90.187',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-23',
+    particulars: 'DairyProduct',
+    name: 'Perry',
+    cultivationCity: 'Stuttgart',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'MH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Jinny', 'Randa', 'Lilith', 'Giustina', 'Kara-Lynn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.213', soldDate: '2022-03-09' },
+      { itemsSold: '1', price: '12.113', soldDate: '2022-01-10' },
+      { itemsSold: '2', price: '6.476', soldDate: '2022-08-04' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e33"),
+    random: '46',
+    price: '70.73',
+    isReadyForSale: 'true',
+    listedDate: '2022-09-08',
+    particulars: 'Artifically Flavoured',
+    name: 'Jeanna',
+    cultivationCity: 'Riga',
+    cultivationCountry: 'Antarctica',
+    cultivationCountryCode: 'DK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Aaren', 'Darci', 'Hermione', 'Feliza', 'Leona' ],
+    salesDetails: [
+      { itemsSold: '0', price: '88.319', soldDate: '2022-12-10' },
+      { itemsSold: '1', price: '31.354', soldDate: '2023-01-04' },
+      { itemsSold: '2', price: '33.156', soldDate: '2022-01-27' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e34"),
+    random: '2',
+    price: '50.826',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-09',
+    particulars: 'Artifically Flavoured',
+    name: 'Candi',
+    cultivationCity: 'Seville',
+    cultivationCountry: 'Heard Island and Mcdonald Islands',
+    cultivationCountryCode: 'VC',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Miquela', 'Elie', 'Anestassia', 'Rubie', 'Cordi' ],
+    salesDetails: [
+      { itemsSold: '0', price: '18.217', soldDate: '2022-11-18' },
+      { itemsSold: '1', price: '93.788', soldDate: '2022-06-16' },
+      { itemsSold: '2', price: '91.071', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e35"),
+    random: '88',
+    price: '93.599',
+    isReadyForSale: 'true',
+    listedDate: '2022-04-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Marika',
+    cultivationCity: 'Nukulaelae',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'TF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Annice', 'Cathyleen', 'Candi', 'Gilligan', 'Kenna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '83.095', soldDate: '2022-07-12' },
+      { itemsSold: '1', price: '87.711', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '98.216', soldDate: '2023-01-11' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e36"),
+    random: '92',
+    price: '40.655',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-28',
+    particulars: 'Artifically Flavoured',
+    name: 'Randa',
+    cultivationCity: 'São Paulo',
+    cultivationCountry: 'Isle of Man',
+    cultivationCountryCode: 'AQ',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Alyda', 'Tierney', 'Caressa', 'Dorothy', 'Cissiee' ],
+    salesDetails: [
+      { itemsSold: '0', price: '12.068', soldDate: '2023-01-11' },
+      { itemsSold: '1', price: '91.069', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '37.823', soldDate: '2022-10-24' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e37"),
+    random: '92',
+    price: '75.428',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-14',
+    particulars: 'DairyProduct',
+    name: 'Roxane',
+    cultivationCity: 'Cebu City',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Correy', 'Kellen', 'Arlena', 'Sabina', 'Elsie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.792', soldDate: '2022-07-08' },
+      { itemsSold: '1', price: '97.719', soldDate: '2022-02-14' },
+      { itemsSold: '2', price: '70.68', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e38"),
+    random: '78',
+    price: '24.883',
+    isReadyForSale: 'true',
+    listedDate: '2022-10-21',
+    particulars: 'DairyProduct',
+    name: 'Kimmy',
+    cultivationCity: 'Cologne',
+    cultivationCountry: 'Guatemala',
+    cultivationCountryCode: 'IN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Nadine', 'Eadie', 'Charlena', 'Leanna', 'Katleen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.13', soldDate: '2022-09-10' },
+      { itemsSold: '1', price: '98.324', soldDate: '2022-05-04' },
+      { itemsSold: '2', price: '62.662', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e39"),
+    random: '78',
+    price: '31.852',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-30',
+    particulars: 'Not For Sale',
+    name: 'Nita',
+    cultivationCity: 'Nukuʻalofa',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'GB',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Catharine', 'Carly', 'Ingrid', 'Di', 'Di' ],
+    salesDetails: [
+      { itemsSold: '0', price: '44.634', soldDate: '2022-04-09' },
+      { itemsSold: '1', price: '34.374', soldDate: '2022-07-06' },
+      { itemsSold: '2', price: '30.953', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3a"),
+    random: '26',
+    price: '35.366',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-25',
+    particulars: 'DairyProduct',
+    name: 'Dominga',
+    cultivationCity: 'Okinawa',
+    cultivationCountry: 'Pakistan',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Calla', 'Petronia', 'Jaclyn', 'Ellette', 'Nariko' ],
+    salesDetails: [
+      { itemsSold: '0', price: '69.804', soldDate: '2022-01-15' },
+      { itemsSold: '1', price: '46.931', soldDate: '2022-09-23' },
+      { itemsSold: '2', price: '30.755', soldDate: '2022-11-30' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3b"),
+    random: '86',
+    price: '28.201',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-04',
+    particulars: 'Artifically Flavoured',
+    name: 'Sonni',
+    cultivationCity: 'Livingstone',
+    cultivationCountry: 'Honduras',
+    cultivationCountryCode: 'AN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Barbi', 'Steffane', 'Chickie', 'Devina', 'Beverley' ],
+    salesDetails: [
+      { itemsSold: '0', price: '39.392', soldDate: '2022-05-22' },
+      { itemsSold: '1', price: '98.752', soldDate: '2022-01-26' },
+      { itemsSold: '2', price: '95.525', soldDate: '2022-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3c"),
+    random: '55',
+    price: '68.556',
+    isReadyForSale: 'true',
+    listedDate: '2022-11-23',
+    particulars: 'Not For Sale',
+    name: 'Elbertina',
+    cultivationCity: 'Tagbilaran',
+    cultivationCountry: 'Aruba',
+    cultivationCountryCode: 'CN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Micheline', 'Marti', 'Jaime', 'Regina', 'Carree' ],
+    salesDetails: [
+      { itemsSold: '0', price: '19.292', soldDate: '2022-07-03' },
+      { itemsSold: '1', price: '20.679', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '22.079', soldDate: '2022-04-25' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3d"),
+    random: '84',
+    price: '30.792',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-08',
+    particulars: 'Not For Sale',
+    name: 'Judy',
+    cultivationCity: 'Canberra',
+    cultivationCountry: 'Equatorial Guinea',
+    cultivationCountryCode: 'WF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Dorene', 'Olivette', 'Hope', 'Barbara', 'Ronna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '51.254', soldDate: '2022-01-02' },
+      { itemsSold: '1', price: '53.855', soldDate: '2022-08-10' },
+      { itemsSold: '2', price: '38.011', soldDate: '2022-05-17' }
+    ]
+  }
+]
+Type "it" for more
+product_database> db.products.find({ particulars: /...$/ })
+[
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2a"),
+    random: '6',
+    price: '65.333',
+    isReadyForSale: 'true',
+    listedDate: '2022-08-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Demetris',
+    cultivationCity: 'Regina',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'AX',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ida', 'Nikki', 'Nanete', 'Linzy', 'Doro' ],
+    salesDetails: [
+      { itemsSold: '0', price: '53.008', soldDate: '2022-09-02' },
+      { itemsSold: '1', price: '61.885', soldDate: '2022-06-25' },
+      { itemsSold: '2', price: '59.877', soldDate: '2022-11-29' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2b"),
+    random: '65',
+    price: '37.13',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-06',
+    particulars: 'Not For Sale',
+    name: 'Kirbee',
+    cultivationCity: 'Novosibirsk',
+    cultivationCountry: 'Falkland Islands (Malvinas)',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tobe', 'Barbara', 'Deloria', 'Lilith', 'Halette' ],
+    salesDetails: [
+      { itemsSold: '0', price: '37.853', soldDate: '2022-08-20' },
+      { itemsSold: '1', price: '72.682', soldDate: '2022-08-23' },
+      { itemsSold: '2', price: '56.205', soldDate: '2022-05-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2c"),
+    random: '81',
+    price: '86.039',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-19',
+    particulars: 'DairyProduct',
+    name: 'Brana',
+    cultivationCity: 'Yangon',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'JP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Florie', 'Melanie', 'Arlina', 'Adelle', 'Marylou' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.336', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '43.228', soldDate: '2022-05-14' },
+      { itemsSold: '2', price: '78.479', soldDate: '2022-08-31' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2d"),
+    random: '87',
+    price: '24.459',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-22',
+    particulars: 'Artifically Flavoured',
+    name: 'Nannie',
+    cultivationCity: 'Málaga',
+    cultivationCountry: 'Saint Lucia',
+    cultivationCountryCode: 'GH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minda', 'Maridel', 'Dale', 'Basia', 'Shell' ],
+    salesDetails: [
+      { itemsSold: '0', price: '7.698', soldDate: '2022-04-26' },
+      { itemsSold: '1', price: '93.372', soldDate: '2022-03-07' },
+      { itemsSold: '2', price: '15.133', soldDate: '2022-02-03' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2e"),
+    random: '30',
+    price: '47.238',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-28',
+    particulars: 'Not For Sale',
+    name: 'Miquela',
+    cultivationCity: 'İzmir',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'LS',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Caressa', 'Heddie', 'Marjie', 'Phylis', 'Nerta' ],
+    salesDetails: [
+      { itemsSold: '0', price: '29.933', soldDate: '2022-06-30' },
+      { itemsSold: '1', price: '94.819', soldDate: '2022-08-20' },
+      { itemsSold: '2', price: '40.343', soldDate: '2022-11-09' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2f"),
+    random: '39',
+    price: '22.665',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-01',
+    particulars: 'Not For Sale',
+    name: 'Bibby',
+    cultivationCity: 'Tel Aviv',
+    cultivationCountry: 'Chile',
+    cultivationCountryCode: 'FI',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minne', 'Dacia', 'Almeta', 'Nicoli', 'Leanna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.544', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '100.913', soldDate: '2022-03-19' },
+      { itemsSold: '2', price: '25.927', soldDate: '2022-09-10' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e30"),
+    random: '12',
+    price: '83.43',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-08',
+    particulars: 'DairyProduct',
+    name: 'Daryl',
+    cultivationCity: 'Minneapolis',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tersina', 'Marjie', 'Leia', 'Candy', 'Miquela' ],
+    salesDetails: [
+      { itemsSold: '0', price: '55.581', soldDate: '2022-08-04' },
+      { itemsSold: '1', price: '13.612', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '79.643', soldDate: '2023-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e31"),
+    random: '60',
+    price: '37.873',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-29',
+    particulars: 'Artifically Flavoured',
+    name: 'Nanete',
+    cultivationCity: 'Miami',
+    cultivationCountry: 'Bangladesh',
+    cultivationCountryCode: 'OM',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Allis', 'Jillayne', 'Lizzie', 'Nickie', 'Jolyn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '43.276', soldDate: '2022-01-13' },
+      { itemsSold: '1', price: '62.907', soldDate: '2022-12-17' },
+      { itemsSold: '2', price: '79.784', soldDate: '2022-05-12' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e32"),
+    random: '89',
+    price: '90.187',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-23',
+    particulars: 'DairyProduct',
+    name: 'Perry',
+    cultivationCity: 'Stuttgart',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'MH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Jinny', 'Randa', 'Lilith', 'Giustina', 'Kara-Lynn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.213', soldDate: '2022-03-09' },
+      { itemsSold: '1', price: '12.113', soldDate: '2022-01-10' },
+      { itemsSold: '2', price: '6.476', soldDate: '2022-08-04' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e33"),
+    random: '46',
+    price: '70.73',
+    isReadyForSale: 'true',
+    listedDate: '2022-09-08',
+    particulars: 'Artifically Flavoured',
+    name: 'Jeanna',
+    cultivationCity: 'Riga',
+    cultivationCountry: 'Antarctica',
+    cultivationCountryCode: 'DK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Aaren', 'Darci', 'Hermione', 'Feliza', 'Leona' ],
+    salesDetails: [
+      { itemsSold: '0', price: '88.319', soldDate: '2022-12-10' },
+      { itemsSold: '1', price: '31.354', soldDate: '2023-01-04' },
+      { itemsSold: '2', price: '33.156', soldDate: '2022-01-27' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e34"),
+    random: '2',
+    price: '50.826',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-09',
+    particulars: 'Artifically Flavoured',
+    name: 'Candi',
+    cultivationCity: 'Seville',
+    cultivationCountry: 'Heard Island and Mcdonald Islands',
+    cultivationCountryCode: 'VC',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Miquela', 'Elie', 'Anestassia', 'Rubie', 'Cordi' ],
+    salesDetails: [
+      { itemsSold: '0', price: '18.217', soldDate: '2022-11-18' },
+      { itemsSold: '1', price: '93.788', soldDate: '2022-06-16' },
+      { itemsSold: '2', price: '91.071', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e35"),
+    random: '88',
+    price: '93.599',
+    isReadyForSale: 'true',
+    listedDate: '2022-04-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Marika',
+    cultivationCity: 'Nukulaelae',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'TF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Annice', 'Cathyleen', 'Candi', 'Gilligan', 'Kenna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '83.095', soldDate: '2022-07-12' },
+      { itemsSold: '1', price: '87.711', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '98.216', soldDate: '2023-01-11' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e36"),
+    random: '92',
+    price: '40.655',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-28',
+    particulars: 'Artifically Flavoured',
+    name: 'Randa',
+    cultivationCity: 'São Paulo',
+    cultivationCountry: 'Isle of Man',
+    cultivationCountryCode: 'AQ',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Alyda', 'Tierney', 'Caressa', 'Dorothy', 'Cissiee' ],
+    salesDetails: [
+      { itemsSold: '0', price: '12.068', soldDate: '2023-01-11' },
+      { itemsSold: '1', price: '91.069', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '37.823', soldDate: '2022-10-24' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e37"),
+    random: '92',
+    price: '75.428',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-14',
+    particulars: 'DairyProduct',
+    name: 'Roxane',
+    cultivationCity: 'Cebu City',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Correy', 'Kellen', 'Arlena', 'Sabina', 'Elsie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.792', soldDate: '2022-07-08' },
+      { itemsSold: '1', price: '97.719', soldDate: '2022-02-14' },
+      { itemsSold: '2', price: '70.68', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e38"),
+    random: '78',
+    price: '24.883',
+    isReadyForSale: 'true',
+    listedDate: '2022-10-21',
+    particulars: 'DairyProduct',
+    name: 'Kimmy',
+    cultivationCity: 'Cologne',
+    cultivationCountry: 'Guatemala',
+    cultivationCountryCode: 'IN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Nadine', 'Eadie', 'Charlena', 'Leanna', 'Katleen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.13', soldDate: '2022-09-10' },
+      { itemsSold: '1', price: '98.324', soldDate: '2022-05-04' },
+      { itemsSold: '2', price: '62.662', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e39"),
+    random: '78',
+    price: '31.852',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-30',
+    particulars: 'Not For Sale',
+    name: 'Nita',
+    cultivationCity: 'Nukuʻalofa',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'GB',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Catharine', 'Carly', 'Ingrid', 'Di', 'Di' ],
+    salesDetails: [
+      { itemsSold: '0', price: '44.634', soldDate: '2022-04-09' },
+      { itemsSold: '1', price: '34.374', soldDate: '2022-07-06' },
+      { itemsSold: '2', price: '30.953', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3a"),
+    random: '26',
+    price: '35.366',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-25',
+    particulars: 'DairyProduct',
+    name: 'Dominga',
+    cultivationCity: 'Okinawa',
+    cultivationCountry: 'Pakistan',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Calla', 'Petronia', 'Jaclyn', 'Ellette', 'Nariko' ],
+    salesDetails: [
+      { itemsSold: '0', price: '69.804', soldDate: '2022-01-15' },
+      { itemsSold: '1', price: '46.931', soldDate: '2022-09-23' },
+      { itemsSold: '2', price: '30.755', soldDate: '2022-11-30' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3b"),
+    random: '86',
+    price: '28.201',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-04',
+    particulars: 'Artifically Flavoured',
+    name: 'Sonni',
+    cultivationCity: 'Livingstone',
+    cultivationCountry: 'Honduras',
+    cultivationCountryCode: 'AN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Barbi', 'Steffane', 'Chickie', 'Devina', 'Beverley' ],
+    salesDetails: [
+      { itemsSold: '0', price: '39.392', soldDate: '2022-05-22' },
+      { itemsSold: '1', price: '98.752', soldDate: '2022-01-26' },
+      { itemsSold: '2', price: '95.525', soldDate: '2022-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3c"),
+    random: '55',
+    price: '68.556',
+    isReadyForSale: 'true',
+    listedDate: '2022-11-23',
+    particulars: 'Not For Sale',
+    name: 'Elbertina',
+    cultivationCity: 'Tagbilaran',
+    cultivationCountry: 'Aruba',
+    cultivationCountryCode: 'CN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Micheline', 'Marti', 'Jaime', 'Regina', 'Carree' ],
+    salesDetails: [
+      { itemsSold: '0', price: '19.292', soldDate: '2022-07-03' },
+      { itemsSold: '1', price: '20.679', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '22.079', soldDate: '2022-04-25' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3d"),
+    random: '84',
+    price: '30.792',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-08',
+    particulars: 'Not For Sale',
+    name: 'Judy',
+    cultivationCity: 'Canberra',
+    cultivationCountry: 'Equatorial Guinea',
+    cultivationCountryCode: 'WF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Dorene', 'Olivette', 'Hope', 'Barbara', 'Ronna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '51.254', soldDate: '2022-01-02' },
+      { itemsSold: '1', price: '53.855', soldDate: '2022-08-10' },
+      { itemsSold: '2', price: '38.011', soldDate: '2022-05-17' }
+    ]
+  }
+]
+Type "it" for more
+product_database> db.products.find({ particulars: /.../ })
+[
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2a"),
+    random: '6',
+    price: '65.333',
+    isReadyForSale: 'true',
+    listedDate: '2022-08-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Demetris',
+    cultivationCity: 'Regina',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'AX',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Ida', 'Nikki', 'Nanete', 'Linzy', 'Doro' ],
+    salesDetails: [
+      { itemsSold: '0', price: '53.008', soldDate: '2022-09-02' },
+      { itemsSold: '1', price: '61.885', soldDate: '2022-06-25' },
+      { itemsSold: '2', price: '59.877', soldDate: '2022-11-29' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2b"),
+    random: '65',
+    price: '37.13',
+    isReadyForSale: 'false',
+    listedDate: '2022-03-06',
+    particulars: 'Not For Sale',
+    name: 'Kirbee',
+    cultivationCity: 'Novosibirsk',
+    cultivationCountry: 'Falkland Islands (Malvinas)',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tobe', 'Barbara', 'Deloria', 'Lilith', 'Halette' ],
+    salesDetails: [
+      { itemsSold: '0', price: '37.853', soldDate: '2022-08-20' },
+      { itemsSold: '1', price: '72.682', soldDate: '2022-08-23' },
+      { itemsSold: '2', price: '56.205', soldDate: '2022-05-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2c"),
+    random: '81',
+    price: '86.039',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-19',
+    particulars: 'DairyProduct',
+    name: 'Brana',
+    cultivationCity: 'Yangon',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'JP',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Florie', 'Melanie', 'Arlina', 'Adelle', 'Marylou' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.336', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '43.228', soldDate: '2022-05-14' },
+      { itemsSold: '2', price: '78.479', soldDate: '2022-08-31' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2d"),
+    random: '87',
+    price: '24.459',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-22',
+    particulars: 'Artifically Flavoured',
+    name: 'Nannie',
+    cultivationCity: 'Málaga',
+    cultivationCountry: 'Saint Lucia',
+    cultivationCountryCode: 'GH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minda', 'Maridel', 'Dale', 'Basia', 'Shell' ],
+    salesDetails: [
+      { itemsSold: '0', price: '7.698', soldDate: '2022-04-26' },
+      { itemsSold: '1', price: '93.372', soldDate: '2022-03-07' },
+      { itemsSold: '2', price: '15.133', soldDate: '2022-02-03' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2e"),
+    random: '30',
+    price: '47.238',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-28',
+    particulars: 'Not For Sale',
+    name: 'Miquela',
+    cultivationCity: 'İzmir',
+    cultivationCountry: 'Indonesia',
+    cultivationCountryCode: 'LS',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Caressa', 'Heddie', 'Marjie', 'Phylis', 'Nerta' ],
+    salesDetails: [
+      { itemsSold: '0', price: '29.933', soldDate: '2022-06-30' },
+      { itemsSold: '1', price: '94.819', soldDate: '2022-08-20' },
+      { itemsSold: '2', price: '40.343', soldDate: '2022-11-09' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e2f"),
+    random: '39',
+    price: '22.665',
+    isReadyForSale: 'true',
+    listedDate: '2022-06-01',
+    particulars: 'Not For Sale',
+    name: 'Bibby',
+    cultivationCity: 'Tel Aviv',
+    cultivationCountry: 'Chile',
+    cultivationCountryCode: 'FI',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Minne', 'Dacia', 'Almeta', 'Nicoli', 'Leanna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.544', soldDate: '2022-07-01' },
+      { itemsSold: '1', price: '100.913', soldDate: '2022-03-19' },
+      { itemsSold: '2', price: '25.927', soldDate: '2022-09-10' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e30"),
+    random: '12',
+    price: '83.43',
+    isReadyForSale: 'false',
+    listedDate: '2022-02-08',
+    particulars: 'DairyProduct',
+    name: 'Daryl',
+    cultivationCity: 'Minneapolis',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Tersina', 'Marjie', 'Leia', 'Candy', 'Miquela' ],
+    salesDetails: [
+      { itemsSold: '0', price: '55.581', soldDate: '2022-08-04' },
+      { itemsSold: '1', price: '13.612', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '79.643', soldDate: '2023-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e31"),
+    random: '60',
+    price: '37.873',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-29',
+    particulars: 'Artifically Flavoured',
+    name: 'Nanete',
+    cultivationCity: 'Miami',
+    cultivationCountry: 'Bangladesh',
+    cultivationCountryCode: 'OM',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Allis', 'Jillayne', 'Lizzie', 'Nickie', 'Jolyn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '43.276', soldDate: '2022-01-13' },
+      { itemsSold: '1', price: '62.907', soldDate: '2022-12-17' },
+      { itemsSold: '2', price: '79.784', soldDate: '2022-05-12' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e32"),
+    random: '89',
+    price: '90.187',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-23',
+    particulars: 'DairyProduct',
+    name: 'Perry',
+    cultivationCity: 'Stuttgart',
+    cultivationCountry: 'Nicaragua',
+    cultivationCountryCode: 'MH',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Jinny', 'Randa', 'Lilith', 'Giustina', 'Kara-Lynn' ],
+    salesDetails: [
+      { itemsSold: '0', price: '47.213', soldDate: '2022-03-09' },
+      { itemsSold: '1', price: '12.113', soldDate: '2022-01-10' },
+      { itemsSold: '2', price: '6.476', soldDate: '2022-08-04' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e33"),
+    random: '46',
+    price: '70.73',
+    isReadyForSale: 'true',
+    listedDate: '2022-09-08',
+    particulars: 'Artifically Flavoured',
+    name: 'Jeanna',
+    cultivationCity: 'Riga',
+    cultivationCountry: 'Antarctica',
+    cultivationCountryCode: 'DK',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Aaren', 'Darci', 'Hermione', 'Feliza', 'Leona' ],
+    salesDetails: [
+      { itemsSold: '0', price: '88.319', soldDate: '2022-12-10' },
+      { itemsSold: '1', price: '31.354', soldDate: '2023-01-04' },
+      { itemsSold: '2', price: '33.156', soldDate: '2022-01-27' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e34"),
+    random: '2',
+    price: '50.826',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-09',
+    particulars: 'Artifically Flavoured',
+    name: 'Candi',
+    cultivationCity: 'Seville',
+    cultivationCountry: 'Heard Island and Mcdonald Islands',
+    cultivationCountryCode: 'VC',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Miquela', 'Elie', 'Anestassia', 'Rubie', 'Cordi' ],
+    salesDetails: [
+      { itemsSold: '0', price: '18.217', soldDate: '2022-11-18' },
+      { itemsSold: '1', price: '93.788', soldDate: '2022-06-16' },
+      { itemsSold: '2', price: '91.071', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e35"),
+    random: '88',
+    price: '93.599',
+    isReadyForSale: 'true',
+    listedDate: '2022-04-19',
+    particulars: 'Artifically Flavoured',
+    name: 'Marika',
+    cultivationCity: 'Nukulaelae',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'TF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Annice', 'Cathyleen', 'Candi', 'Gilligan', 'Kenna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '83.095', soldDate: '2022-07-12' },
+      { itemsSold: '1', price: '87.711', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '98.216', soldDate: '2023-01-11' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e36"),
+    random: '92',
+    price: '40.655',
+    isReadyForSale: 'true',
+    listedDate: '2022-12-28',
+    particulars: 'Artifically Flavoured',
+    name: 'Randa',
+    cultivationCity: 'São Paulo',
+    cultivationCountry: 'Isle of Man',
+    cultivationCountryCode: 'AQ',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Alyda', 'Tierney', 'Caressa', 'Dorothy', 'Cissiee' ],
+    salesDetails: [
+      { itemsSold: '0', price: '12.068', soldDate: '2023-01-11' },
+      { itemsSold: '1', price: '91.069', soldDate: '2022-01-09' },
+      { itemsSold: '2', price: '37.823', soldDate: '2022-10-24' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e37"),
+    random: '92',
+    price: '75.428',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-14',
+    particulars: 'DairyProduct',
+    name: 'Roxane',
+    cultivationCity: 'Cebu City',
+    cultivationCountry: 'Monaco',
+    cultivationCountryCode: 'YE',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Correy', 'Kellen', 'Arlena', 'Sabina', 'Elsie' ],
+    salesDetails: [
+      { itemsSold: '0', price: '27.792', soldDate: '2022-07-08' },
+      { itemsSold: '1', price: '97.719', soldDate: '2022-02-14' },
+      { itemsSold: '2', price: '70.68', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e38"),
+    random: '78',
+    price: '24.883',
+    isReadyForSale: 'true',
+    listedDate: '2022-10-21',
+    particulars: 'DairyProduct',
+    name: 'Kimmy',
+    cultivationCity: 'Cologne',
+    cultivationCountry: 'Guatemala',
+    cultivationCountryCode: 'IN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Nadine', 'Eadie', 'Charlena', 'Leanna', 'Katleen' ],
+    salesDetails: [
+      { itemsSold: '0', price: '85.13', soldDate: '2022-09-10' },
+      { itemsSold: '1', price: '98.324', soldDate: '2022-05-04' },
+      { itemsSold: '2', price: '62.662', soldDate: '2022-03-20' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e39"),
+    random: '78',
+    price: '31.852',
+    isReadyForSale: 'true',
+    listedDate: '2022-03-30',
+    particulars: 'Not For Sale',
+    name: 'Nita',
+    cultivationCity: 'Nukuʻalofa',
+    cultivationCountry: 'Swaziland',
+    cultivationCountryCode: 'GB',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Catharine', 'Carly', 'Ingrid', 'Di', 'Di' ],
+    salesDetails: [
+      { itemsSold: '0', price: '44.634', soldDate: '2022-04-09' },
+      { itemsSold: '1', price: '34.374', soldDate: '2022-07-06' },
+      { itemsSold: '2', price: '30.953', soldDate: '2022-09-06' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3a"),
+    random: '26',
+    price: '35.366',
+    isReadyForSale: 'false',
+    listedDate: '2022-05-25',
+    particulars: 'DairyProduct',
+    name: 'Dominga',
+    cultivationCity: 'Okinawa',
+    cultivationCountry: 'Pakistan',
+    cultivationCountryCode: 'AT',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Calla', 'Petronia', 'Jaclyn', 'Ellette', 'Nariko' ],
+    salesDetails: [
+      { itemsSold: '0', price: '69.804', soldDate: '2022-01-15' },
+      { itemsSold: '1', price: '46.931', soldDate: '2022-09-23' },
+      { itemsSold: '2', price: '30.755', soldDate: '2022-11-30' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3b"),
+    random: '86',
+    price: '28.201',
+    isReadyForSale: 'false',
+    listedDate: '2022-04-04',
+    particulars: 'Artifically Flavoured',
+    name: 'Sonni',
+    cultivationCity: 'Livingstone',
+    cultivationCountry: 'Honduras',
+    cultivationCountryCode: 'AN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Barbi', 'Steffane', 'Chickie', 'Devina', 'Beverley' ],
+    salesDetails: [
+      { itemsSold: '0', price: '39.392', soldDate: '2022-05-22' },
+      { itemsSold: '1', price: '98.752', soldDate: '2022-01-26' },
+      { itemsSold: '2', price: '95.525', soldDate: '2022-01-15' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3c"),
+    random: '55',
+    price: '68.556',
+    isReadyForSale: 'true',
+    listedDate: '2022-11-23',
+    particulars: 'Not For Sale',
+    name: 'Elbertina',
+    cultivationCity: 'Tagbilaran',
+    cultivationCountry: 'Aruba',
+    cultivationCountryCode: 'CN',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Micheline', 'Marti', 'Jaime', 'Regina', 'Carree' ],
+    salesDetails: [
+      { itemsSold: '0', price: '19.292', soldDate: '2022-07-03' },
+      { itemsSold: '1', price: '20.679', soldDate: '2022-10-09' },
+      { itemsSold: '2', price: '22.079', soldDate: '2022-04-25' }
+    ]
+  },
+  {
+    _id: ObjectId("64ef36e6da627f6ac1070e3d"),
+    random: '84',
+    price: '30.792',
+    isReadyForSale: 'true',
+    listedDate: '2022-02-08',
+    particulars: 'Not For Sale',
+    name: 'Judy',
+    cultivationCity: 'Canberra',
+    cultivationCountry: 'Equatorial Guinea',
+    cultivationCountryCode: 'WF',
+    companyEmail: 'undefined@gmail.com',
+    manufacturingCountries: [ 'Dorene', 'Olivette', 'Hope', 'Barbara', 'Ronna' ],
+    salesDetails: [
+      { itemsSold: '0', price: '51.254', soldDate: '2022-01-02' },
+      { itemsSold: '1', price: '53.855', soldDate: '2022-08-10' },
+      { itemsSold: '2', price: '38.011', soldDate: '2022-05-17' }
+    ]
+  }
+]
+Type "it" for more
+product_database>

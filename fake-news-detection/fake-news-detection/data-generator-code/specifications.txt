@@ -1,0 +1,14 @@
+News generator gives:
+Title,Content,Label
+
+How to use?
+> pip3 install -r requirements
+> python3 generate-news.py
+
+(change pip3 to pip & python3 to python as per your OS)
+
+Problem statement:
+1. There is a set of news
+2. Your code should detect whether the provided news is real or fake
+3. You should also display the accuracy of the alogorithm
+

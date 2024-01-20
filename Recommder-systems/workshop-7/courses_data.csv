@@ -1,0 +1,6 @@
+course_id,course_name,category,level,price,rating
+1,Introduction to Python,Programming,Beginner,Free,4.5
+2,Machine Learning Fundamentals,Machine Learning,Intermediate,29.99,4.0
+3,Web Development with Django,Web Development,Advanced,49.99,4.8
+4,Data Science with Python,Data Science,Intermediate,39.99,4.2
+5,JavaScript for Beginners,Programming,Beginner,Free,4.0

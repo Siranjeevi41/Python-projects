@@ -1,0 +1,6 @@
+city,temperature,humidity,wind_speed,precipitation,cloudiness
+New York,75,60,10,0.2,30
+Los Angeles,85,40,5,0.0,10
+Chicago,65,70,15,0.5,50
+Houston,90,80,12,0.1,20
+Miami,88,75,8,0.3,40

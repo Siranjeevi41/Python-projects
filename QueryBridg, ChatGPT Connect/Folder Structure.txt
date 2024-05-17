@@ -1,0 +1,17 @@
+project/
+│
+├── src/
+│   ├── app.py
+│   ├── config.py
+│   ├── controllers/
+│   │   └── api_controller.py
+│   ├── services/
+│   │   ├── chatgpt_service.py
+│   │   └── bridgeit_service.py
+│   ├── utils/
+│   │   ├── logger.py
+│   │   └── secrets_manager.py
+│   └── templates/
+│       └── index.html
+├── requirements.txt
+└── README.md

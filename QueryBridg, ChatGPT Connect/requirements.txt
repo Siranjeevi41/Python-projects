@@ -1,4 +1,4 @@
-Flask==2.0.1
+Flask==2.2.5
 requests==2.25.1
 boto3==1.17.72
 python-dotenv==0.17.1

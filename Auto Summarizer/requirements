@@ -4,3 +4,4 @@ torch
 fpdf
 python-docx
 boto3
+tf-keras

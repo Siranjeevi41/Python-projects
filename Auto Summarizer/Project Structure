@@ -1,0 +1,43 @@
++-----------------------------+
+|          User UI            |
+| (Web Application Frontend)  |
++-----------------------------+
+            |
+            v
++-----------------------------+
+|         Backend API         |
+|     (Flask Application)     |
++-----------------------------+
+            |
+            v
++-----------------------------+
+|  Summarization Service API  |
+| +-------------------------+ |
+| |      Online AI Tool     | |
+| |       (ChatGPT)         | |
+| +-------------------------+ |
+|          OR                 |
+| +-------------------------+ |
+| |      Custom LLMs        | |
+| +-------------------------+ |
++-----------------------------+
+            |
+            v
++-----------------------------+
+|     File Processing Service |
+|  (Generate Text, PDF, DOCX, ZIP) |
++-----------------------------+
+            |
+            v
++-----------------------------+
+| AWS Secrets Manager (Keys)  |
++-----------------------------+
+
+
+auto-summarizer/
+│
+├── app.py                    # Main application script
+├── requirements.txt          # File listing all the dependencies
+├── output/                   # Directory to store output files
+│   └── .gitkeep              # (Optional) Ensures the directory is tracked by version control
+├── README.md                 # Project documentation

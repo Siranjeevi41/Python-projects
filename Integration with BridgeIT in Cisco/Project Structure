@@ -1,0 +1,6 @@
+bridgeit_integration/
+│
+├── main.py
+├── bridgeit_api.py
+├── ui.py
+└── requirements.txt

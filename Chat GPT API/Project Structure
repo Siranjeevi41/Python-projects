@@ -1,0 +1,6 @@
+chatgpt_integration/
+│
+├── main.py
+├── chatgpt_api.py
+├── ui.py
+└── requirements.txt
